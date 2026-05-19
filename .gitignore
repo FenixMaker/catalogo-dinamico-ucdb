@@ -1,0 +1,32 @@
+# SO / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+
+# Logs e saídas de scripts de capas
+*.log
+capas-ol-log*.txt
+capas-relaxado.log
+auditoria-final.txt
+
+# Dados temporários de busca (mantém JSON versionados se necessário)
+capas-ol-encontradas.json
+
+# Ambiente
+.env
+.env.*
+
+# Node (se adicionar tooling depois)
+node_modules/

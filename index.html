@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#141110" />
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <title>Acervo brasileiro — Material de leitura</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://covers.openlibrary.org" crossorigin />
+    <link rel="preconnect" href="https://upload.wikimedia.org" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@9..144,500;9..144,600;9..144,700;1,500&family=Source+Serif+4:ital,opsz,wght@8..60,400;8..60,500;8..60,600&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,400&family=JetBrains+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css?v=20" />
+  </head>
+  <body>
+    <header class="hero">
+      <div class="hero__textura" aria-hidden="true"></div>
+      <div class="hero__inner">
+        <nav class="hero__nav" aria-label="Contexto do acervo">
+          <ol class="hero__trilha">
+            <li>UCDB</li>
+            <li aria-hidden="true">/</li>
+            <li>Letras</li>
+            <li aria-hidden="true">/</li>
+            <li aria-current="page">Material de leitura</li>
+          </ol>
+          <span class="hero__ficha">Ficha catálogo <strong id="hero-ref">2026·ML-01</strong></span>
+        </nav>
+
+        <div class="hero__grade">
+          <div class="hero__intro">
+            <p class="hero__selo">
+              <span class="hero__selo-ponto" aria-hidden="true"></span>
+              Acervo curado · Literatura brasileira
+            </p>
+            <h1 class="hero__titulo">Fichas do acervo <em>brasileiro</em></h1>
+            <p class="hero__lead">
+              Do indianismo de Alencar ao modernismo de Macunaíma — explore o acervo na <strong>estante</strong> (lombadas
+              com capa ao passar o mouse) ou em <strong>grade de capas</strong>; clique em qualquer obra para a ficha
+              completa.
+            </p>
+
+            <ul class="hero__stats" aria-label="Resumo do acervo">
+              <li class="hero__stat">
+                <span class="hero__stat-valor" id="stat-obras">—</span>
+                <span class="hero__stat-legenda">obras</span>
+              </li>
+              <li class="hero__stat">
+                <span class="hero__stat-valor" id="stat-autores">—</span>
+                <span class="hero__stat-legenda">autores</span>
+              </li>
+              <li class="hero__stat">
+                <span class="hero__stat-valor" id="stat-periodo">—</span>
+                <span class="hero__stat-legenda">período</span>
+              </li>
+              <li class="hero__stat">
+                <span class="hero__stat-valor" id="stat-generos">—</span>
+                <span class="hero__stat-legenda">gêneros</span>
+              </li>
+            </ul>
+
+            <p class="hero__nota">
+              <span class="hero__nota-rotulo">Nota de uso</span>
+              Valores em reais são referência de edição didática. Capas carregadas de repositórios públicos quando
+              disponíveis.
+            </p>
+          </div>
+
+          <aside class="hero__destaque-wrap" aria-labelledby="destaque-rotulo">
+            <p class="hero__destaque-rotulo" id="destaque-rotulo">Em destaque hoje</p>
+            <article
+              id="hero-destaque"
+              class="hero__destaque"
+              role="button"
+              tabindex="0"
+              aria-labelledby="destaque-titulo"
+            ></article>
+          </aside>
+        </div>
+
+        <div id="hero-faixa-capas" class="hero__faixa-capas" aria-hidden="true"></div>
+      </div>
+    </header>
+
+    <main class="principal">
+      <section class="filtros" aria-label="Filtrar por categoria">
+        <div class="filtros__cabeca">
+          <h2 class="filtros__titulo">Navegar por gênero</h2>
+          <p class="filtros__sub" id="filtros-resumo">Todas as categorias</p>
+        </div>
+        <div id="filtros-categorias" class="filtros__chips" role="group" aria-label="Categorias do acervo"></div>
+      </section>
+
+      <section class="busca" aria-label="Filtrar catálogo">
+        <div class="busca__painel">
+          <label class="busca__label" for="filtro">Consultar o acervo</label>
+          <div class="busca__linha">
+            <div class="busca__field">
+              <span class="busca__ico-wrap" aria-hidden="true">
+                <svg
+                  class="busca__ico"
+                  width="18"
+                  height="18"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  focusable="false"
+                >
+                  <circle cx="11" cy="11" r="7" />
+                  <path d="M21 21l-4.35-4.35" />
+                </svg>
+              </span>
+              <input
+                type="search"
+                id="filtro"
+                class="busca__input"
+                placeholder="Ex.: Machado, romance, sertão…"
+                autocomplete="off"
+                aria-describedby="dica-filtro"
+              />
+            </div>
+            <button
+              type="button"
+              id="btn-limpar"
+              class="busca__limpar busca__limpar--oculto"
+              aria-label="Limpar filtros e mostrar todo o acervo"
+            >
+              Limpar filtros
+            </button>
+          </div>
+          <p id="dica-filtro" class="busca__dica">
+            Combine busca e gênero. Alterne <strong>Estante</strong> ou <strong>Capas</strong> no catálogo ·
+            <strong>clique</strong> em uma obra para a ficha. <strong>Esc</strong> fecha o detalhe.
+          </p>
+        </div>
+      </section>
+
+      <section id="secao-catalogo" class="catalogo" aria-live="polite" aria-atomic="true">
+        <div class="catalogo__cabecalho">
+          <h2>Acervo por gênero</h2>
+          <div class="catalogo__cabecalho-acoes">
+            <div class="catalogo__modos" role="group" aria-label="Modo de visualização">
+              <button type="button" class="catalogo__modo catalogo__modo--ativo" data-modo="estante" aria-pressed="true">
+                Estante
+              </button>
+              <button type="button" class="catalogo__modo" data-modo="grade" aria-pressed="false">Capas</button>
+            </div>
+            <p id="catalogo-stats" class="catalogo__stats" aria-live="polite"></p>
+          </div>
+        </div>
+        <p id="mensagem-vazio" class="catalogo__vazio catalogo__vazio--oculto" role="status">
+          <strong>Nenhum livro nesta prateleira.</strong>
+          Tente outro termo ou gênero, ou limpe os filtros para ver todo o acervo de novo.
+        </p>
+        <div
+          id="lista-produtos"
+          class="estante"
+          role="list"
+          aria-label="Estantes do acervo com livros organizados por prateleira"
+        ></div>
+      </section>
+
+      <footer class="rodape">
+        <div class="rodape__inner">
+          <p class="rodape__texto">
+            Protótipo acadêmico UCDB — estante ou grade de capas, paleta por obra e ficha ao clicar. JavaScript puro.
+          </p>
+          <span class="rodape__marca">Material de leitura · 2026</span>
+        </div>
+      </footer>
+    </main>
+
+    <div
+      id="modal-livro"
+      class="modal modal--oculto"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="modal-titulo"
+      hidden
+    >
+      <div id="modal-backdrop" class="modal__backdrop" data-fechar tabindex="-1" aria-hidden="true"></div>
+      <div class="modal__palco">
+        <button type="button" id="modal-fechar" class="modal__fechar" aria-label="Fechar e devolver o livro à estante">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <path d="M18 6L6 18M6 6l12 12" stroke-linecap="round" />
+          </svg>
+        </button>
+        <div class="modal__layout">
+          <aside class="modal__obra" aria-label="Livro retirado da estante">
+            <p class="modal__obra-legenda">Retirado da estante</p>
+            <div class="modal__livro-3d">
+              <div class="modal__livro-sombra" aria-hidden="true"></div>
+              <div class="modal__livro-frente">
+                <img id="modal-capa" class="modal__capa" src="" alt="" width="320" height="470" />
+              </div>
+              <div class="modal__livro-lombada" aria-hidden="true">
+                <span id="modal-lombada-titulo" class="modal__livro-lombada-titulo"></span>
+              </div>
+            </div>
+          </aside>
+          <div class="modal__observacoes">
+            <p class="modal__obs-rotulo">Ficha e observações</p>
+            <h2 id="modal-titulo" class="modal__titulo"></h2>
+            <p id="modal-autor" class="modal__autor"></p>
+            <ul class="modal__meta" aria-label="Informações do livro">
+              <li><span class="modal__meta-label">ISBN</span> <span id="modal-isbn"></span></li>
+              <li><span class="modal__meta-label">Categoria</span> <span id="modal-categoria"></span></li>
+              <li><span class="modal__meta-label">Ano</span> <span id="modal-ano"></span></li>
+              <li><span class="modal__meta-label">Páginas</span> <span id="modal-paginas"></span></li>
+            </ul>
+            <div class="modal__sinopse-wrap">
+              <h3 class="modal__sinopse-titulo">Sinopse</h3>
+              <p id="modal-sinopse" class="modal__sinopse"></p>
+            </div>
+            <p id="modal-preco" class="modal__preco"></p>
+            <p class="modal__devolver">Pressione <kbd>Esc</kbd> ou clique fora para devolver à estante</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="dados-acervo.js?v=20"></script>
+    <script src="app.js?v=20"></script>
+  </body>
+</html>

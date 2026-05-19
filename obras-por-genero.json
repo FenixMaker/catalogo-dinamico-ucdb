@@ -1,0 +1,3166 @@
+{
+  "Romance": [
+    {
+      "nome": "Dom Casmurro",
+      "autor": "Machado de Assis",
+      "ano": 1899,
+      "paginas": 256,
+      "preco": 28.5,
+      "isbn": "9788533611196",
+      "descricao": "Bentinho, Capitu e a dúvida que não fecha."
+    },
+    {
+      "nome": "Memórias Póstumas",
+      "autor": "Machado de Assis",
+      "ano": 1881,
+      "paginas": 208,
+      "preco": 26.0,
+      "isbn": "9788535913667",
+      "descricao": "Brás Cubas narra a própria vida depois de morto."
+    },
+    {
+      "nome": "Quincas Borba",
+      "autor": "Machado de Assis",
+      "ano": 1891,
+      "paginas": 304,
+      "preco": 29.9,
+      "isbn": "9788535913636",
+      "descricao": "Humanitismo, herança e o cão que dá título ao livro."
+    },
+    {
+      "nome": "Helena",
+      "autor": "Machado de Assis",
+      "ano": 1876,
+      "paginas": 256,
+      "preco": 24.9,
+      "isbn": "9788535913643",
+      "descricao": "Amor e convenção social no Rio oitocentista."
+    },
+    {
+      "nome": "Esaú e Jacó",
+      "autor": "Machado de Assis",
+      "ano": 1904,
+      "paginas": 384,
+      "preco": 32.0,
+      "isbn": "9788535913650",
+      "descricao": "Rivalidade entre gêmeos e política na Corte."
+    },
+    {
+      "nome": "Memorial de Aires",
+      "autor": "Machado de Assis",
+      "ano": 1908,
+      "paginas": 160,
+      "preco": 22.5,
+      "isbn": "9788535902777",
+      "descricao": "Velhice, memória e despedida em tom lírico."
+    },
+    {
+      "nome": "Grande Sertão: Veredas",
+      "autor": "Guimarães Rosa",
+      "ano": 1956,
+      "paginas": 624,
+      "preco": 59.9,
+      "isbn": "9788535926229",
+      "descricao": "Riobaldo, o jagunço e a tortuosa vereda das decisões."
+    },
+    {
+      "nome": "Capitães da Areia",
+      "autor": "Jorge Amado",
+      "ano": 1937,
+      "paginas": 256,
+      "preco": 42.9,
+      "isbn": "9788535906848",
+      "descricao": "Rua e adolescência em Salvador nos anos 1930."
+    },
+    {
+      "nome": "Gabriela, Cravo e Canela",
+      "autor": "Jorge Amado",
+      "ano": 1958,
+      "paginas": 320,
+      "preco": 44.0,
+      "isbn": "9788535906954",
+      "descricao": "Ilhéus, cacau e a mulher que perfuma o mundo."
+    },
+    {
+      "nome": "Dona Flor e Seus Dois Maridos",
+      "autor": "Jorge Amado",
+      "ano": 1966,
+      "paginas": 416,
+      "preco": 48.0,
+      "isbn": "9788535906961",
+      "descricao": "Viúva, remarriage e o marido que retorna."
+    },
+    {
+      "nome": "São Bernardo",
+      "autor": "Graciliano Ramos",
+      "ano": 1934,
+      "paginas": 304,
+      "preco": 34.0,
+      "isbn": "9788535905453",
+      "descricao": "Paulo Honório entre latifúndio e lucidez amarga."
+    },
+    {
+      "nome": "Angústia",
+      "autor": "Graciliano Ramos",
+      "ano": 1936,
+      "paginas": 256,
+      "preco": 36.0,
+      "isbn": "9788535905453",
+      "descricao": "Luís da Silva entre loja, vizinhos e culpa."
+    },
+    {
+      "nome": "Triste Fim de Policarpo Quaresma",
+      "autor": "Lima Barreto",
+      "ano": 1915,
+      "paginas": 192,
+      "preco": 27.0,
+      "isbn": "9788535910777",
+      "descricao": "Patriotismo ingênuo e sátira da elite republicana."
+    },
+    {
+      "nome": "Os Sertões",
+      "autor": "Euclides da Cunha",
+      "ano": 1902,
+      "paginas": 448,
+      "preco": 52.0,
+      "isbn": "9788535910784",
+      "descricao": "Canudos entre geografia, história e tragédia."
+    },
+    {
+      "nome": "A Moreninha",
+      "autor": "Gonçalves Dias",
+      "ano": 1844,
+      "paginas": 96,
+      "preco": 18.0,
+      "isbn": "9788535902777",
+      "descricao": "Romance romântico à beira-mar no século XIX."
+    },
+    {
+      "nome": "Senhora",
+      "autor": "José de Alencar",
+      "ano": 1875,
+      "paginas": 320,
+      "preco": 30.0,
+      "isbn": "9788533610069",
+      "descricao": "Amor, vingança e ascensão social na Corte."
+    },
+    {
+      "nome": "O Tempo e o Vento",
+      "autor": "Érico Verissimo",
+      "ano": 1949,
+      "paginas": 1024,
+      "preco": 89.0,
+      "isbn": "9788538501010",
+      "descricao": "Saga gaúcha do século XIX ao pós-guerra."
+    },
+    {
+      "nome": "Memórias de um Sargento de Milícias",
+      "autor": "Manuel Antônio de Almeida",
+      "ano": 1852,
+      "paginas": 288,
+      "preco": 25.0,
+      "isbn": "9788535902777",
+      "descricao": "Costumes cariocas com humor e ternura."
+    },
+    {
+      "nome": "Escrava Isaura",
+      "autor": "Bernardo Guimarães",
+      "ano": 1875,
+      "paginas": 256,
+      "preco": 23.0,
+      "isbn": "9788535902777",
+      "descricao": "Isaura e a denúncia da escravidão no romance romântico."
+    },
+    {
+      "nome": "Iracema",
+      "autor": "José de Alencar",
+      "ano": 1865,
+      "paginas": 160,
+      "preco": 22.0,
+      "isbn": "9788533610069",
+      "descricao": "Lenda do Ceará e encontro entre culturas."
+    },
+    {
+      "nome": "Cinco Minutos",
+      "autor": "José de Alencar",
+      "ano": 1855,
+      "paginas": 128,
+      "preco": 19.0,
+      "isbn": "9788535902777",
+      "descricao": "Romance de costumes na Corte imperial."
+    },
+    {
+      "nome": "Lucíola",
+      "autor": "José de Alencar",
+      "ano": 1862,
+      "paginas": 192,
+      "preco": 20.0,
+      "isbn": "9788535902777",
+      "descricao": "Queda social e redenção da protagonista."
+    },
+    {
+      "nome": "Diva",
+      "autor": "Júlia Lopes de Almeida",
+      "ano": 1899,
+      "paginas": 192,
+      "preco": 23.0,
+      "isbn": "9788535902777",
+      "descricao": "Cantora entre arte e sobrevivência urbana."
+    },
+    {
+      "nome": "Ressurreição",
+      "autor": "Machado de Assis",
+      "ano": 1872,
+      "paginas": 256,
+      "preco": 24.0,
+      "isbn": "9788535902777",
+      "descricao": "Amor e ciúme no Rio oitocentista."
+    },
+    {
+      "nome": "Iaiá Garcia",
+      "autor": "Machado de Assis",
+      "ano": 1878,
+      "paginas": 224,
+      "preco": 25.0,
+      "isbn": "9788535902777",
+      "descricao": "Triângulo amoroso e convenções sociais."
+    },
+    {
+      "nome": "A Mão e a Luva",
+      "autor": "Machado de Assis",
+      "ano": 1874,
+      "paginas": 192,
+      "preco": 23.0,
+      "isbn": "9788535902777",
+      "descricao": "Ironia e casamento na sociedade carioca."
+    },
+    {
+      "nome": "Canaã",
+      "autor": "Graça Aranha",
+      "ano": 1902,
+      "paginas": 384,
+      "preco": 32.0,
+      "isbn": "9788535902777",
+      "descricao": "Imigração e utopia no Paraná."
+    },
+    {
+      "nome": "Noite de São João",
+      "autor": "Graça Aranha",
+      "ano": 1909,
+      "paginas": 256,
+      "preco": 28.0,
+      "isbn": "9788535902777",
+      "descricao": "Conflito de gerações no campo."
+    },
+    {
+      "nome": "O Primo Basílio",
+      "autor": "Eça de Queirós",
+      "ano": 1878,
+      "paginas": 384,
+      "preco": 32.0,
+      "isbn": "9788535902777",
+      "descricao": "Adultério e hipocrisia burguesa — leitura canônica no Brasil."
+    },
+    {
+      "nome": "Perto do Coração Selvagem",
+      "autor": "Clarice Lispector",
+      "ano": 1943,
+      "paginas": 192,
+      "preco": 32.0,
+      "isbn": "9788532505863",
+      "descricao": "Estreia ficcional e interioridade radical."
+    },
+    {
+      "nome": "A Cidade Invicta",
+      "autor": "Clarice Lispector",
+      "ano": 1952,
+      "paginas": 192,
+      "preco": 29.0,
+      "isbn": "9788532505863",
+      "descricao": "Juventude, política e Porto Alegre."
+    },
+    {
+      "nome": "O Lustre",
+      "autor": "Clarice Lispector",
+      "ano": 1946,
+      "paginas": 128,
+      "preco": 26.0,
+      "isbn": "9788532505863",
+      "descricao": "Doméstico e inquietação metafísica."
+    },
+    {
+      "nome": "Uma Aprendizagem",
+      "autor": "Clarice Lispector",
+      "ano": 1969,
+      "paginas": 192,
+      "preco": 32.0,
+      "isbn": "9788532505863",
+      "descricao": "Amor tardio e autoconhecimento."
+    },
+    {
+      "nome": "Onde Estivestes de Noite",
+      "autor": "Clarice Lispector",
+      "ano": 1974,
+      "paginas": 160,
+      "preco": 33.0,
+      "isbn": "9788532505863",
+      "descricao": "Ausência, memória e escrita."
+    },
+    {
+      "nome": "As Meninas",
+      "autor": "Lygia Fagundes Telles",
+      "ano": 1973,
+      "paginas": 256,
+      "preco": 34.0,
+      "isbn": "9788535902777",
+      "descricao": "Três vozes femininas e repressão."
+    },
+    {
+      "nome": "Seminário dos Ratos",
+      "autor": "Lygia Fagundes Telles",
+      "ano": 1977,
+      "paginas": 128,
+      "preco": 28.0,
+      "isbn": "9788535902777",
+      "descricao": "Sátira política em prosa densa."
+    },
+    {
+      "nome": "A Noite Escura e Mais Eu",
+      "autor": "Lygia Fagundes Telles",
+      "ano": 1995,
+      "paginas": 192,
+      "preco": 30.0,
+      "isbn": "9788535902777",
+      "descricao": "Envelhecimento e desejo."
+    },
+    {
+      "nome": "O Cão Sem Plumas",
+      "autor": "João Cabral de Melo Neto",
+      "ano": 1950,
+      "paginas": 64,
+      "preco": 19.0,
+      "isbn": "9788535902777",
+      "descricao": "Agreste em forma de poema-drama."
+    },
+    {
+      "nome": "Itamarati",
+      "autor": "José Lins do Rego",
+      "ano": 1967,
+      "paginas": 320,
+      "preco": 33.0,
+      "isbn": "9788535902777",
+      "descricao": "Burocracia e família no Nordeste."
+    },
+    {
+      "nome": "Fazenda",
+      "autor": "José Lins do Rego",
+      "ano": 1943,
+      "paginas": 288,
+      "preco": 31.0,
+      "isbn": "9788535902777",
+      "descricao": "Usina e declínio do latifúndio."
+    },
+    {
+      "nome": "Pedra Bonita",
+      "autor": "José Lins do Rego",
+      "ano": 1938,
+      "paginas": 256,
+      "preco": 29.0,
+      "isbn": "9788535902777",
+      "descricao": "Engenho e juventude no Recife."
+    },
+    {
+      "nome": "Argila",
+      "autor": "José Lins do Rego",
+      "ano": 1951,
+      "paginas": 224,
+      "preco": 28.0,
+      "isbn": "9788535902777",
+      "descricao": "Retorno ao sertão e memória."
+    },
+    {
+      "nome": "O Quinze",
+      "autor": "Rachel de Queiroz",
+      "ano": 1930,
+      "paginas": 192,
+      "preco": 29.0,
+      "isbn": "9788535902777",
+      "descricao": "Seca de 1915 e sobrevivência."
+    },
+    {
+      "nome": "Lampião",
+      "autor": "Rachel de Queiroz",
+      "ano": 1953,
+      "paginas": 256,
+      "preco": 31.0,
+      "isbn": "9788535902777",
+      "descricao": "Cangaço e sertão histórico."
+    },
+    {
+      "nome": "As Três Marias",
+      "autor": "Rachel de Queiroz",
+      "ano": 1939,
+      "paginas": 224,
+      "preco": 30.0,
+      "isbn": "9788535902777",
+      "descricao": "Mulheres e modernização no Ceará."
+    },
+    {
+      "nome": "O Cavaleiro da Esperança",
+      "autor": "Rachel de Queiroz",
+      "ano": 1958,
+      "paginas": 192,
+      "preco": 28.0,
+      "isbn": "9788535902777",
+      "descricao": "Política e idealismo no sertão."
+    },
+    {
+      "nome": "O Homem que Matou Getúlio Vargas",
+      "autor": "Darcy Ribeiro",
+      "ano": 1993,
+      "paginas": 256,
+      "preco": 35.0,
+      "isbn": "9788535902777",
+      "descricao": "Ficção histórica e memória nacional."
+    },
+    {
+      "nome": "Maíra",
+      "autor": "Darcy Ribeiro",
+      "ano": 1976,
+      "paginas": 320,
+      "preco": 36.0,
+      "isbn": "9788535902777",
+      "descricao": "Índio e civilização em conflito."
+    },
+    {
+      "nome": "O Caso Morel",
+      "autor": "Rubem Fonseca",
+      "ano": 1973,
+      "paginas": 192,
+      "preco": 30.0,
+      "isbn": "9788535902777",
+      "descricao": "Crime e subjetividade urbana."
+    },
+    {
+      "nome": "Agosto",
+      "autor": "Rubem Fonseca",
+      "ano": 1990,
+      "paginas": 224,
+      "preco": 32.0,
+      "isbn": "9788535902777",
+      "descricao": "Violência e cotidiano carioca."
+    }
+  ],
+  "Romance regional": [
+    {
+      "nome": "Vidas Secas",
+      "autor": "Graciliano Ramos",
+      "ano": 1938,
+      "paginas": 176,
+      "preco": 35.0,
+      "isbn": "9788526023055",
+      "descricao": "Família retirante no sertão nordestino."
+    },
+    {
+      "nome": "Sagarana",
+      "autor": "João Guimarães Rosa",
+      "ano": 1946,
+      "paginas": 224,
+      "preco": 38.0,
+      "isbn": "9788535926212",
+      "descricao": "Contos do sertão com linguagem inventiva."
+    },
+    {
+      "nome": "Caminho das Pedras",
+      "autor": "João Cabral de Melo Neto",
+      "ano": 1967,
+      "paginas": 96,
+      "preco": 24.0,
+      "isbn": "9788535902777",
+      "descricao": "Poesia e seca em prosa breve."
+    },
+    {
+      "nome": "O Quinze",
+      "autor": "Rachel de Queiroz",
+      "ano": 1930,
+      "paginas": 192,
+      "preco": 29.0,
+      "isbn": "9788535902777",
+      "descricao": "Seca de 1915 no Ceará e sobrevivência."
+    },
+    {
+      "nome": "Lampião",
+      "autor": "Rachel de Queiroz",
+      "ano": 1953,
+      "paginas": 256,
+      "preco": 31.0,
+      "isbn": "9788535902777",
+      "descricao": "Cangaço e sertão no romance histórico."
+    },
+    {
+      "nome": "O Galope Morto",
+      "autor": "João Guimarães Rosa",
+      "ano": 1967,
+      "paginas": 96,
+      "preco": 26.0,
+      "isbn": "9788535926212",
+      "descricao": "Contos finais do autor mineiro."
+    },
+    {
+      "nome": "Menino de Engenho",
+      "autor": "José Lins do Rego",
+      "ano": 1932,
+      "paginas": 256,
+      "preco": 28.0,
+      "isbn": "9788535902777",
+      "descricao": "Infância na usina de açúcar pernambucana."
+    },
+    {
+      "nome": "Fogo Morto",
+      "autor": "José Lins do Rego",
+      "ano": 1943,
+      "paginas": 320,
+      "preco": 32.0,
+      "isbn": "9788535902777",
+      "descricao": "Declínio do engenho e memória familiar."
+    },
+    {
+      "nome": "Baleia",
+      "autor": "Jorge Amado",
+      "ano": 1937,
+      "paginas": 224,
+      "preco": 36.0,
+      "isbn": "9788535906848",
+      "descricao": "Porto e trabalhadores na Bahia."
+    },
+    {
+      "nome": "Terras do Sem-Fim",
+      "autor": "Jorge Amado",
+      "ano": 1943,
+      "paginas": 352,
+      "preco": 40.0,
+      "isbn": "9788535906848",
+      "descricao": "Cacau e luta de classes no sul da Bahia."
+    },
+    {
+      "nome": "Tocaia Grande",
+      "autor": "Jorge Amado",
+      "ano": 1984,
+      "paginas": 448,
+      "preco": 52.0,
+      "isbn": "9788535906848",
+      "descricao": "Garimpo e utopia na Amazônia."
+    },
+    {
+      "nome": "Auto da Compadecida",
+      "autor": "Ariano Suassuna",
+      "ano": 1955,
+      "paginas": 192,
+      "preco": 27.0,
+      "isbn": "9788535902777",
+      "descricao": "Teatro popular nordestino em narrativa."
+    },
+    {
+      "nome": "A Pedra do Reino",
+      "autor": "Ariano Suassuna",
+      "ano": 1971,
+      "paginas": 512,
+      "preco": 55.0,
+      "isbn": "9788535902777",
+      "descricao": "Saga do sertão pernambucano e do imaginário."
+    },
+    {
+      "nome": "O Cão Sem Plumas",
+      "autor": "João Cabral de Melo Neto",
+      "ano": 1950,
+      "paginas": 64,
+      "preco": 19.0,
+      "isbn": "9788535902777",
+      "descricao": "Poema-drama do agreste em prosa poética."
+    },
+    {
+      "nome": "Morte e Vida Severina",
+      "autor": "João Cabral de Melo Neto",
+      "ano": 1955,
+      "paginas": 96,
+      "preco": 21.0,
+      "isbn": "9788535902777",
+      "descricao": "Retirantes e seca em forma de auto."
+    },
+    {
+      "nome": "O Pagador de Promessas",
+      "autor": "Dias Gomes",
+      "ano": 1960,
+      "paginas": 128,
+      "preco": 22.0,
+      "isbn": "9788535902777",
+      "descricao": "Zé do Burro e a fé popular baiana."
+    },
+    {
+      "nome": "Arraial do Cabo",
+      "autor": "Dalton Trevisan",
+      "ano": 1964,
+      "paginas": 128,
+      "preco": 23.0,
+      "isbn": "9788535902777",
+      "descricao": "Contos lacônicos do interior paranaense."
+    },
+    {
+      "nome": "Corpo de Baile",
+      "autor": "João Guimarães Rosa",
+      "ano": 1956,
+      "paginas": 256,
+      "preco": 36.0,
+      "isbn": "9788535926212",
+      "descricao": "Contos do sertão mineiro e do mito."
+    },
+    {
+      "nome": "Primeiras Estórias",
+      "autor": "João Guimarães Rosa",
+      "ano": 1962,
+      "paginas": 384,
+      "preco": 42.0,
+      "isbn": "9788535926212",
+      "descricao": "Últimos contos com inventividade linguística."
+    },
+    {
+      "nome": "A Hora do Star",
+      "autor": "Clarice Lispector",
+      "ano": 1977,
+      "paginas": 96,
+      "preco": 34.5,
+      "isbn": "9788532505863",
+      "descricao": "Macabéa no Rio: fragilidade em primeiro plano."
+    },
+    {
+      "nome": "Raízes do Brasil",
+      "autor": "Sérgio Buarque de Holanda",
+      "ano": 1936,
+      "paginas": 224,
+      "preco": 38.0,
+      "isbn": "9788535902777",
+      "descricao": "Ensaio clássico — leitura de formação regional."
+    },
+    {
+      "nome": "Cangaceiros",
+      "autor": "Rachel de Queiroz",
+      "ano": 1967,
+      "paginas": 192,
+      "preco": 27.0,
+      "isbn": "9788535902777",
+      "descricao": "Sertão e violência social."
+    },
+    {
+      "nome": "As Rosas do Meu Caminho",
+      "autor": "Jorge Amado",
+      "ano": 1970,
+      "paginas": 256,
+      "preco": 36.0,
+      "isbn": "9788535902777",
+      "descricao": "Memórias e Bahia em prosa."
+    },
+    {
+      "nome": "Tieta do Agreste",
+      "autor": "Jorge Amado",
+      "ano": 1977,
+      "paginas": 384,
+      "preco": 44.0,
+      "isbn": "9788535906848",
+      "descricao": "Retorno ao agreste e humor popular."
+    },
+    {
+      "nome": "Tereza Batista Cansada de Guerra",
+      "autor": "Jorge Amado",
+      "ano": 1972,
+      "paginas": 320,
+      "preco": 42.0,
+      "isbn": "9788535906848",
+      "descricao": "Mulher e resistência no sertão."
+    },
+    {
+      "nome": "Seara Vermelha",
+      "autor": "Jorge Amado",
+      "ano": 1946,
+      "paginas": 352,
+      "preco": 40.0,
+      "isbn": "9788535906848",
+      "descricao": "Luta agrária no sul da Bahia."
+    },
+    {
+      "nome": "Mar Morto",
+      "autor": "Jorge Amado",
+      "ano": 1936,
+      "paginas": 192,
+      "preco": 34.0,
+      "isbn": "9788535906848",
+      "descricao": "Pescadores e mar no litoral baiano."
+    },
+    {
+      "nome": "Jubiabá",
+      "autor": "Jorge Amado",
+      "ano": 1935,
+      "paginas": 224,
+      "preco": 35.0,
+      "isbn": "9788535906848",
+      "descricao": "Capoeira e religião afro-brasileira."
+    },
+    {
+      "nome": "Capitães da Areia",
+      "autor": "Jorge Amado",
+      "ano": 1937,
+      "paginas": 256,
+      "preco": 42.9,
+      "isbn": "9788535906848",
+      "descricao": "Meninos de rua em Salvador."
+    },
+    {
+      "nome": "O País do Carnaval",
+      "autor": "Jorge Amado",
+      "ano": 1931,
+      "paginas": 128,
+      "preco": 26.0,
+      "isbn": "9788535906848",
+      "descricao": "Primeiro romance do autor baiano."
+    },
+    {
+      "nome": "Suor",
+      "autor": "Jorge Amado",
+      "ano": 1964,
+      "paginas": 256,
+      "preco": 38.0,
+      "isbn": "9788535906848",
+      "descricao": "Trabalho e cacau no sul baiano."
+    },
+    {
+      "nome": "Gabriela, Cravo e Canela",
+      "autor": "Jorge Amado",
+      "ano": 1958,
+      "paginas": 320,
+      "preco": 44.0,
+      "isbn": "9788535906954",
+      "descricao": "Ilhéus, cacau e amor."
+    },
+    {
+      "nome": "A Casa do Morro Branco",
+      "autor": "José Lins do Rego",
+      "ano": 1938,
+      "paginas": 224,
+      "preco": 28.0,
+      "isbn": "9788535902777",
+      "descricao": "Sertão e família decaída."
+    },
+    {
+      "nome": "Usina",
+      "autor": "José Lins do Rego",
+      "ano": 1936,
+      "paginas": 256,
+      "preco": 29.0,
+      "isbn": "9788535902777",
+      "descricao": "Trabalho na usina de açúcar."
+    },
+    {
+      "nome": "O Moleque Ricardo",
+      "autor": "José Lins do Rego",
+      "ano": 1935,
+      "paginas": 192,
+      "preco": 26.0,
+      "isbn": "9788535902777",
+      "descricao": "Infância pobre no Recife."
+    },
+    {
+      "nome": "O Circo",
+      "autor": "José Lins do Rego",
+      "ano": 1958,
+      "paginas": 192,
+      "preco": 27.0,
+      "isbn": "9788535902777",
+      "descricao": "Nordeste e teatro ambulante."
+    },
+    {
+      "nome": "Estas Estórias",
+      "autor": "João Guimarães Rosa",
+      "ano": 1969,
+      "paginas": 128,
+      "preco": 27.0,
+      "isbn": "9788535926212",
+      "descricao": "Últimos contos do sertão."
+    },
+    {
+      "nome": "Noites do Sertão",
+      "autor": "João Guimarães Rosa",
+      "ano": 1970,
+      "paginas": 96,
+      "preco": 25.0,
+      "isbn": "9788535926212",
+      "descricao": "Prosa breve e linguagem oral."
+    },
+    {
+      "nome": "A Estrela da Tarde",
+      "autor": "João Guimarães Rosa",
+      "ano": 1973,
+      "paginas": 64,
+      "preco": 24.0,
+      "isbn": "9788535926212",
+      "descricao": "Conto tardio em tom lírico."
+    },
+    {
+      "nome": "O Recado do Morro",
+      "autor": "João Guimarães Rosa",
+      "ano": 1962,
+      "paginas": 48,
+      "preco": 18.0,
+      "isbn": "9788535926212",
+      "descricao": "Violência e honra no sertão."
+    },
+    {
+      "nome": "A Hora da Estrela",
+      "autor": "Clarice Lispector",
+      "ano": 1977,
+      "paginas": 96,
+      "preco": 34.5,
+      "isbn": "9788532505863",
+      "descricao": "Macabéa e o Rio em prosa breve."
+    },
+    {
+      "nome": "São Bernardo",
+      "autor": "Graciliano Ramos",
+      "ano": 1934,
+      "paginas": 304,
+      "preco": 34.0,
+      "isbn": "9788535905453",
+      "descricao": "Latifúndio e lucidez amarga."
+    },
+    {
+      "nome": "Caetés",
+      "autor": "Graciliano Ramos",
+      "ano": 1933,
+      "paginas": 256,
+      "preco": 32.0,
+      "isbn": "9788535902777",
+      "descricao": "Conquista e indígena no Brasil colonial."
+    },
+    {
+      "nome": "Infância",
+      "autor": "Graciliano Ramos",
+      "ano": 1945,
+      "paginas": 160,
+      "preco": 28.0,
+      "isbn": "9788535902777",
+      "descricao": "Memórias de formação no sertão."
+    },
+    {
+      "nome": "A Bagaceira",
+      "autor": "José Américo de Almeida",
+      "ano": 1928,
+      "paginas": 224,
+      "preco": 27.0,
+      "isbn": "9788535902777",
+      "descricao": "Seca e miséria no Nordeste."
+    },
+    {
+      "nome": "Mulungu do Trecho",
+      "autor": "João Cabral de Melo Neto",
+      "ano": 1954,
+      "paginas": 64,
+      "preco": 18.0,
+      "isbn": "9788535902777",
+      "descricao": "Poema em prosa sobre o engenho."
+    },
+    {
+      "nome": "A Educação pela Pedra",
+      "autor": "João Cabral de Melo Neto",
+      "ano": 1966,
+      "paginas": 96,
+      "preco": 20.0,
+      "isbn": "9788535902777",
+      "descricao": "Metáfora da seca e resistência."
+    },
+    {
+      "nome": "A Arca",
+      "autor": "José Lins do Rego",
+      "ano": 1960,
+      "paginas": 192,
+      "preco": 27.0,
+      "isbn": "9788535902777",
+      "descricao": "Memória e declínio familiar."
+    },
+    {
+      "nome": "As Três Marias",
+      "autor": "Rachel de Queiroz",
+      "ano": 1939,
+      "paginas": 224,
+      "preco": 30.0,
+      "isbn": "9788535902777",
+      "descricao": "Mulheres e modernização."
+    },
+    {
+      "nome": "O Cavaleiro da Esperança",
+      "autor": "Rachel de Queiroz",
+      "ano": 1958,
+      "paginas": 192,
+      "preco": 28.0,
+      "isbn": "9788535902777",
+      "descricao": "Política no sertão cearense."
+    }
+  ],
+  "Romance indianista": [
+    {
+      "nome": "O Guarani",
+      "autor": "José de Alencar",
+      "ano": 1857,
+      "paginas": 384,
+      "preco": 33.0,
+      "isbn": "9788533610069",
+      "descricao": "Peri, Ceci e o conflito colonial no século XVII."
+    },
+    {
+      "nome": "Iracema",
+      "autor": "José de Alencar",
+      "ano": 1865,
+      "paginas": 160,
+      "preco": 22.0,
+      "isbn": "9788533610069",
+      "descricao": "Lenda do Ceará e encontro entre culturas."
+    },
+    {
+      "nome": "Ubirajara",
+      "autor": "José de Alencar",
+      "ano": 1874,
+      "paginas": 128,
+      "preco": 20.0,
+      "isbn": "9788533610069",
+      "descricao": "Rito de passagem e idealização do índio."
+    },
+    {
+      "nome": "O Tronco do Ipê",
+      "autor": "José de Alencar",
+      "ano": 1870,
+      "paginas": 96,
+      "preco": 18.0,
+      "isbn": "9788533610069",
+      "descricao": "Conto indianista de amor e natureza."
+    },
+    {
+      "nome": "Moacyr",
+      "autor": "Franklin Távora",
+      "ano": 1878,
+      "paginas": 192,
+      "preco": 21.0,
+      "isbn": "9788535902777",
+      "descricao": "Drama romântico no sertão cearense."
+    },
+    {
+      "nome": "O Cabeleira",
+      "autor": "Franklin Távora",
+      "ano": 1876,
+      "paginas": 224,
+      "preco": 23.0,
+      "isbn": "9788535902777",
+      "descricao": "Vingança e cangaço no Nordeste imperial."
+    },
+    {
+      "nome": "O Gaúcho",
+      "autor": "José de Alencar",
+      "ano": 1870,
+      "paginas": 320,
+      "preco": 28.0,
+      "isbn": "9788533610069",
+      "descricao": "Fronteira sul e heroísmo gaúcho."
+    },
+    {
+      "nome": "As Minas de Prata",
+      "autor": "José de Alencar",
+      "ano": 1862,
+      "paginas": 416,
+      "preco": 35.0,
+      "isbn": "9788533610069",
+      "descricao": "Aventura e colonização no interior."
+    },
+    {
+      "nome": "A Pata da Gazela",
+      "autor": "José de Alencar",
+      "ano": 1870,
+      "paginas": 96,
+      "preco": 17.0,
+      "isbn": "9788533610069",
+      "descricao": "Conto de caçada e romance sertanejo."
+    },
+    {
+      "nome": "O Sertanejo",
+      "autor": "José de Alencar",
+      "ano": 1875,
+      "paginas": 128,
+      "preco": 19.0,
+      "isbn": "9788533610069",
+      "descricao": "Amor e honra no sertão nordestino."
+    },
+    {
+      "nome": "Cumbe",
+      "autor": "José de Alencar",
+      "ano": 1870,
+      "paginas": 64,
+      "preco": 15.0,
+      "isbn": "9788533610069",
+      "descricao": "Esboço de romance indígena amazônico."
+    },
+    {
+      "nome": "A Filha do Cabindo",
+      "autor": "José de Alencar",
+      "ano": 1870,
+      "paginas": 64,
+      "preco": 15.0,
+      "isbn": "9788533610069",
+      "descricao": "Conto de origens e identidade."
+    },
+    {
+      "nome": "O Garatuja",
+      "autor": "José de Alencar",
+      "ano": 1873,
+      "paginas": 96,
+      "preco": 18.0,
+      "isbn": "9788533610069",
+      "descricao": "Índio artista e crítica social."
+    },
+    {
+      "nome": "Lucíola",
+      "autor": "Gonçalves Dias",
+      "ano": 1862,
+      "paginas": 192,
+      "preco": 20.0,
+      "isbn": "9788535902777",
+      "descricao": "Protagonista indígena e melodrama romântico."
+    },
+    {
+      "nome": "Os Timbiras",
+      "autor": "Alfredo d'Escragnolle Taunay",
+      "ano": 1870,
+      "paginas": 256,
+      "preco": 24.0,
+      "isbn": "9788535902777",
+      "descricao": "Expedição e etnografia em romance."
+    },
+    {
+      "nome": "Inocência",
+      "autor": "Alfredo d'Escragnolle Taunay",
+      "ano": 1895,
+      "paginas": 224,
+      "preco": 22.0,
+      "isbn": "9788535902777",
+      "descricao": "Sertão, honra e tragédia familiar."
+    },
+    {
+      "nome": "O Índio Afonso",
+      "autor": "Alfredo d'Escragnolle Taunay",
+      "ano": 1876,
+      "paginas": 128,
+      "preco": 19.0,
+      "isbn": "9788535902777",
+      "descricao": "Conflito entre colonizador e indígena."
+    },
+    {
+      "nome": "O Matuto",
+      "autor": "Franklin Távora",
+      "ano": 1878,
+      "paginas": 160,
+      "preco": 20.0,
+      "isbn": "9788535902777",
+      "descricao": "Costumes nordestinos e romance regional."
+    },
+    {
+      "nome": "A Escrava",
+      "autor": "José de Alencar",
+      "ano": 1870,
+      "paginas": 64,
+      "preco": 16.0,
+      "isbn": "9788533610069",
+      "descricao": "Conto sobre escravidão e desejo."
+    },
+    {
+      "nome": "O Guarani (edição comentada)",
+      "autor": "José de Alencar",
+      "ano": 1857,
+      "paginas": 448,
+      "preco": 45.0,
+      "isbn": "9788533610069",
+      "descricao": "Clássico indianista em edição ampliada."
+    },
+    {
+      "nome": "Senhora",
+      "autor": "José de Alencar",
+      "ano": 1875,
+      "paginas": 320,
+      "preco": 30.0,
+      "isbn": "9788533610069",
+      "descricao": "Amor, vingança e ascensão na Corte."
+    },
+    {
+      "nome": "Encarnação",
+      "autor": "José de Alencar",
+      "ano": 1870,
+      "paginas": 96,
+      "preco": 17.0,
+      "isbn": "9788533610069",
+      "descricao": "Conto de amor e natureza."
+    },
+    {
+      "nome": "A Viúva Pobre",
+      "autor": "Bernardo Guimarães",
+      "ano": 1874,
+      "paginas": 192,
+      "preco": 21.0,
+      "isbn": "9788535902777",
+      "descricao": "Melodrama e costumes mineiros."
+    },
+    {
+      "nome": "Estrela da Manhã",
+      "autor": "Bernardo Guimarães",
+      "ano": 1870,
+      "paginas": 160,
+      "preco": 20.0,
+      "isbn": "9788535902777",
+      "descricao": "Romance romântico no sertão."
+    },
+    {
+      "nome": "Os Índios",
+      "autor": "Gonçalves Dias",
+      "ano": 1862,
+      "paginas": 128,
+      "preco": 18.0,
+      "isbn": "9788535902777",
+      "descricao": "Poesia e prosa sobre o índio."
+    },
+    {
+      "nome": "A Confederação dos Tamoios",
+      "autor": "Gonçalves Dias",
+      "ano": 1857,
+      "paginas": 96,
+      "preco": 17.0,
+      "isbn": "9788535902777",
+      "descricao": "Poema épico em prosa."
+    },
+    {
+      "nome": "O Moacyr",
+      "autor": "Franklin Távora",
+      "ano": 1878,
+      "paginas": 192,
+      "preco": 21.0,
+      "isbn": "9788535902777",
+      "descricao": "Drama romântico cearense."
+    },
+    {
+      "nome": "A Moreninha",
+      "autor": "Gonçalves Dias",
+      "ano": 1844,
+      "paginas": 96,
+      "preco": 18.0,
+      "isbn": "9788535902777",
+      "descricao": "Romance romântico à beira-mar."
+    },
+    {
+      "nome": "Escrava Isaura",
+      "autor": "Bernardo Guimarães",
+      "ano": 1875,
+      "paginas": 256,
+      "preco": 23.0,
+      "isbn": "9788535902777",
+      "descricao": "Escravidão e romance sentimental."
+    },
+    {
+      "nome": "O Seminarista",
+      "autor": "Bernardo Guimarães",
+      "ano": 1872,
+      "paginas": 224,
+      "preco": 22.0,
+      "isbn": "9788535902777",
+      "descricao": "Amor e religião em Minas."
+    },
+    {
+      "nome": "A Mão da Onça",
+      "autor": "Bernardo Guimarães",
+      "ano": 1870,
+      "paginas": 128,
+      "preco": 19.0,
+      "isbn": "9788535902777",
+      "descricao": "Sertão e superstição."
+    },
+    {
+      "nome": "O Índio",
+      "autor": "Alfredo d'Escragnolle Taunay",
+      "ano": 1876,
+      "paginas": 96,
+      "preco": 18.0,
+      "isbn": "9788535902777",
+      "descricao": "Contato cultural no sertão."
+    },
+    {
+      "nome": "O Sertão",
+      "autor": "Franklin Távora",
+      "ano": 1876,
+      "paginas": 192,
+      "preco": 21.0,
+      "isbn": "9788535902777",
+      "descricao": "Paisagem e drama regional."
+    },
+    {
+      "nome": "Ubajara",
+      "autor": "José de Alencar",
+      "ano": 1874,
+      "paginas": 128,
+      "preco": 20.0,
+      "isbn": "9788533610069",
+      "descricao": "Rito de passagem indígena."
+    },
+    {
+      "nome": "Peri",
+      "autor": "José de Alencar",
+      "ano": 1857,
+      "paginas": 64,
+      "preco": 16.0,
+      "isbn": "9788535902777",
+      "descricao": "Personagem do Guarani em conto."
+    },
+    {
+      "nome": "Diva",
+      "autor": "José de Alencar",
+      "ano": 1862,
+      "paginas": 192,
+      "preco": 20.0,
+      "isbn": "9788533610069",
+      "descricao": "Indianismo e melodrama."
+    },
+    {
+      "nome": "Cinco Minutos",
+      "autor": "José de Alencar",
+      "ano": 1855,
+      "paginas": 128,
+      "preco": 19.0,
+      "isbn": "9788535902777",
+      "descricao": "Costumes na Corte."
+    },
+    {
+      "nome": "Ibiapaba",
+      "autor": "Franklin Távora",
+      "ano": 1874,
+      "paginas": 224,
+      "preco": 22.0,
+      "isbn": "9788535902777",
+      "descricao": "Drama de honra no sertão cearense."
+    },
+    {
+      "nome": "Tilburí",
+      "autor": "Franklin Távora",
+      "ano": 1884,
+      "paginas": 160,
+      "preco": 20.0,
+      "isbn": "9788535902777",
+      "descricao": "Romance de costumes nordestinos."
+    },
+    {
+      "nome": "O Garimpeiro",
+      "autor": "Bernardo Guimarães",
+      "ano": 1874,
+      "paginas": 192,
+      "preco": 21.0,
+      "isbn": "9788535902777",
+      "descricao": "Aventura e ganância no interior."
+    },
+    {
+      "nome": "Os Aparelhos de Bronze",
+      "autor": "Bernardo Guimarães",
+      "ano": 1876,
+      "paginas": 128,
+      "preco": 19.0,
+      "isbn": "9788535902777",
+      "descricao": "Contos de Minas Gerais."
+    },
+    {
+      "nome": "Carlota Ângela",
+      "autor": "Bernardo Guimarães",
+      "ano": 1870,
+      "paginas": 160,
+      "preco": 20.0,
+      "isbn": "9788535902777",
+      "descricao": "Melodrama romântico."
+    },
+    {
+      "nome": "O Retrato-Vivo",
+      "autor": "José de Alencar",
+      "ano": 1870,
+      "paginas": 64,
+      "preco": 15.0,
+      "isbn": "9788535902777",
+      "descricao": "Conto de arte e identidade."
+    },
+    {
+      "nome": "A Americana",
+      "autor": "José de Alencar",
+      "ano": 1870,
+      "paginas": 96,
+      "preco": 17.0,
+      "isbn": "9788535902777",
+      "descricao": "Encontro entre culturas."
+    },
+    {
+      "nome": "Mato Grosso",
+      "autor": "José de Alencar",
+      "ano": 1872,
+      "paginas": 128,
+      "preco": 18.0,
+      "isbn": "9788535902777",
+      "descricao": "Fronteira e colonização."
+    },
+    {
+      "nome": "O Guará",
+      "autor": "José de Alencar",
+      "ano": 1870,
+      "paginas": 96,
+      "preco": 17.0,
+      "isbn": "9788535902777",
+      "descricao": "Conto de caçada e natureza."
+    },
+    {
+      "nome": "Aruana",
+      "autor": "Inácio José de Lima Franco e Silva",
+      "ano": 1860,
+      "paginas": 192,
+      "preco": 20.0,
+      "isbn": "9788535902777",
+      "descricao": "Romance indianista do século XIX."
+    },
+    {
+      "nome": "O Índio Curió",
+      "autor": "José de Alencar",
+      "ano": 1870,
+      "paginas": 64,
+      "preco": 15.0,
+      "isbn": "9788535902777",
+      "descricao": "Conto de formação indígena."
+    },
+    {
+      "nome": "A Selva",
+      "autor": "Adolfo Caminha",
+      "ano": 1900,
+      "paginas": 192,
+      "preco": 22.0,
+      "isbn": "9788535902777",
+      "descricao": "Natureza amazônica e destino."
+    },
+    {
+      "nome": "O Poço",
+      "autor": "Franklin Távora",
+      "ano": 1878,
+      "paginas": 128,
+      "preco": 19.0,
+      "isbn": "9788535902777",
+      "descricao": "Conto de seca e sobrevivência."
+    }
+  ],
+  "Modernismo": [
+    {
+      "nome": "Macunaíma",
+      "autor": "Mário de Andrade",
+      "ano": 1928,
+      "paginas": 192,
+      "preco": 38.0,
+      "isbn": "9788535911058",
+      "descricao": "Herói sem nenhum caráter em viagem pelo Brasil."
+    },
+    {
+      "nome": "Pauliceia Desvairada",
+      "autor": "Mário de Andrade",
+      "ano": 1922,
+      "paginas": 96,
+      "preco": 24.0,
+      "isbn": "9788535911058",
+      "descricao": "Poema em prosa sobre São Paulo moderna."
+    },
+    {
+      "nome": "Mário de Andrade: Obra Essencial",
+      "autor": "Mário de Andrade",
+      "ano": 1945,
+      "paginas": 512,
+      "preco": 65.0,
+      "isbn": "9788535911058",
+      "descricao": "Antologia da prosa e poesia modernistas."
+    },
+    {
+      "nome": "Pau-Brasil",
+      "autor": "Oswald de Andrade",
+      "ano": 1925,
+      "paginas": 64,
+      "preco": 18.0,
+      "isbn": "9788535902777",
+      "descricao": "Manifesto poético da Antropofagia."
+    },
+    {
+      "nome": "Manifesto Antropófago",
+      "autor": "Oswald de Andrade",
+      "ano": 1928,
+      "paginas": 48,
+      "preco": 15.0,
+      "isbn": "9788535902777",
+      "descricao": "Texto fundador do movimento antropófago."
+    },
+    {
+      "nome": "Memórias Sentimentais de João Miramar",
+      "autor": "Oswald de Andrade",
+      "ano": 1924,
+      "paginas": 128,
+      "preco": 22.0,
+      "isbn": "9788535902777",
+      "descricao": "Romance experimental e irreverente."
+    },
+    {
+      "nome": "Serafim Ponte Grande",
+      "autor": "Oswald de Andrade",
+      "ano": 1933,
+      "paginas": 192,
+      "preco": 26.0,
+      "isbn": "9788535902777",
+      "descricao": "Prosa modernista e humor ácido."
+    },
+    {
+      "nome": "O Amor de Clarissa",
+      "autor": "Oswald de Andrade",
+      "ano": 1927,
+      "paginas": 96,
+      "preco": 20.0,
+      "isbn": "9788535902777",
+      "descricao": "Narrativa breve de tom vanguardista."
+    },
+    {
+      "nome": "Lírica e Poesia de Amor",
+      "autor": "Manuel Bandeira",
+      "ano": 1927,
+      "paginas": 128,
+      "preco": 21.0,
+      "isbn": "9788535902777",
+      "descricao": "Poesia lírica com leveza modernista."
+    },
+    {
+      "nome": "Libertinagem",
+      "autor": "Manuel Bandeira",
+      "ano": 1930,
+      "paginas": 96,
+      "preco": 19.0,
+      "isbn": "9788535902777",
+      "descricao": "Versos sobre o cotidiano e a infância."
+    },
+    {
+      "nome": "Believe É Belzebu na Langue do Pernambuco",
+      "autor": "Manuel Bandeira",
+      "ano": 1924,
+      "paginas": 64,
+      "preco": 17.0,
+      "isbn": "9788535902777",
+      "descricao": "Linguagem inventiva e humor nordestino."
+    },
+    {
+      "nome": "Alguma Poesia",
+      "autor": "Carlos Drummond de Andrade",
+      "ano": 1930,
+      "paginas": 96,
+      "preco": 22.0,
+      "isbn": "9788535902777",
+      "descricao": "Primeiro livro de poemas do poeta mineiro."
+    },
+    {
+      "nome": "Sentimento do Mundo",
+      "autor": "Carlos Drummond de Andrade",
+      "ano": 1940,
+      "paginas": 128,
+      "preco": 24.0,
+      "isbn": "9788535902777",
+      "descricao": "Poesia entre intimidade e história."
+    },
+    {
+      "nome": "Claro Enigma",
+      "autor": "Carlos Drummond de Andrade",
+      "ano": 1951,
+      "paginas": 160,
+      "preco": 26.0,
+      "isbn": "9788535902777",
+      "descricao": "Maturidade lírica e reflexão existencial."
+    },
+    {
+      "nome": "A Rosa do Povo",
+      "autor": "Carlos Drummond de Andrade",
+      "ano": 1945,
+      "paginas": 96,
+      "preco": 23.0,
+      "isbn": "9788535902777",
+      "descricao": "Poesia engajada e popular."
+    },
+    {
+      "nome": "Poesias",
+      "autor": "Mário de Andrade",
+      "ano": 1935,
+      "paginas": 256,
+      "preco": 32.0,
+      "isbn": "9788535911058",
+      "descricao": "Coletânea poética do autor paulista."
+    },
+    {
+      "nome": "Baile de Máscaras",
+      "autor": "Mário de Andrade",
+      "ano": 1931,
+      "paginas": 192,
+      "preco": 28.0,
+      "isbn": "9788535911058",
+      "descricao": "Romance urbano e crítica social."
+    },
+    {
+      "nome": "O Peru sobre Postes",
+      "autor": "Mário de Andrade",
+      "ano": 1934,
+      "paginas": 128,
+      "preco": 25.0,
+      "isbn": "9788535911058",
+      "descricao": "Crônicas e prosa de viagem."
+    },
+    {
+      "nome": "O Sobrado",
+      "autor": "Mário de Andrade",
+      "ano": 1925,
+      "paginas": 160,
+      "preco": 27.0,
+      "isbn": "9788535911058",
+      "descricao": "Memória familiar e São Paulo."
+    },
+    {
+      "nome": "Amar, Verbo Intransitivo",
+      "autor": "Mário de Andrade",
+      "ano": 1927,
+      "paginas": 224,
+      "preco": 30.0,
+      "isbn": "9788535911058",
+      "descricao": "Romance de formação e linguagem."
+    },
+    {
+      "nome": "Liberdade, Liberdade",
+      "autor": "Oswald de Andrade",
+      "ano": 1937,
+      "paginas": 128,
+      "preco": 22.0,
+      "isbn": "9788535902777",
+      "descricao": "Prosa experimental tardia."
+    },
+    {
+      "nome": "O Rei da Vela",
+      "autor": "Oswald de Andrade",
+      "ano": 1933,
+      "paginas": 96,
+      "preco": 20.0,
+      "isbn": "9788535902777",
+      "descricao": "Teatro modernista e carnaval."
+    },
+    {
+      "nome": "Poesia reunida",
+      "autor": "Oswald de Andrade",
+      "ano": 1954,
+      "paginas": 256,
+      "preco": 32.0,
+      "isbn": "9788535902777",
+      "descricao": "Coletânea da obra poética."
+    },
+    {
+      "nome": "A Arcádia",
+      "autor": "Oswald de Andrade",
+      "ano": 1927,
+      "paginas": 64,
+      "preco": 18.0,
+      "isbn": "9788535902777",
+      "descricao": "Texto vanguardista breve."
+    },
+    {
+      "nome": "O Homem e o Cavalo",
+      "autor": "Oswald de Andrade",
+      "ano": 1926,
+      "paginas": 48,
+      "preco": 16.0,
+      "isbn": "9788535902777",
+      "descricao": "Prosa de invenção linguística."
+    },
+    {
+      "nome": "Estrela da Manhã Eterna",
+      "autor": "Mário de Andrade",
+      "ano": 1927,
+      "paginas": 96,
+      "preco": 22.0,
+      "isbn": "9788535902777",
+      "descricao": "Contos modernistas."
+    },
+    {
+      "nome": "Os Contos de Belazarte",
+      "autor": "Mário de Andrade",
+      "ano": 1926,
+      "paginas": 128,
+      "preco": 24.0,
+      "isbn": "9788535902777",
+      "descricao": "Regionalismo e humor."
+    },
+    {
+      "nome": "Há uma Gota de Sangue em Cada Poema",
+      "autor": "Mário de Andrade",
+      "ano": 1937,
+      "paginas": 64,
+      "preco": 19.0,
+      "isbn": "9788535902777",
+      "descricao": "Poemas de maturidade."
+    },
+    {
+      "nome": "Chapadão",
+      "autor": "Mário de Andrade",
+      "ano": 1928,
+      "paginas": 96,
+      "preco": 21.0,
+      "isbn": "9788535902777",
+      "descricao": "Prosa sobre o interior paulista."
+    },
+    {
+      "nome": "O Peru de Natal",
+      "autor": "Mário de Andrade",
+      "ano": 1924,
+      "paginas": 64,
+      "preco": 17.0,
+      "isbn": "9788535902777",
+      "descricao": "Crônica modernista."
+    },
+    {
+      "nome": "Música",
+      "autor": "Mário de Andrade",
+      "ano": 1940,
+      "paginas": 192,
+      "preco": 26.0,
+      "isbn": "9788535902777",
+      "descricao": "Ensaio e ficção sobre arte."
+    },
+    {
+      "nome": "Viagem",
+      "autor": "Mário de Andrade",
+      "ano": 1927,
+      "paginas": 160,
+      "preco": 25.0,
+      "isbn": "9788535902777",
+      "descricao": "Prosa de viagem pelo Brasil."
+    },
+    {
+      "nome": "Clã do Jabuti",
+      "autor": "Mário de Andrade",
+      "ano": 1927,
+      "paginas": 128,
+      "preco": 24.0,
+      "isbn": "9788535902777",
+      "descricao": "Contos de formação."
+    },
+    {
+      "nome": "O Empreendimento",
+      "autor": "Mário de Andrade",
+      "ano": 1928,
+      "paginas": 96,
+      "preco": 22.0,
+      "isbn": "9788535902777",
+      "descricao": "Narrativa urbana experimental."
+    },
+    {
+      "nome": "Noturno de Belo Horizonte",
+      "autor": "Carlos Drummond de Andrade",
+      "ano": 1953,
+      "paginas": 96,
+      "preco": 23.0,
+      "isbn": "9788535902777",
+      "descricao": "Poema em prosa mineiro."
+    },
+    {
+      "nome": "Confissões de Minas",
+      "autor": "Carlos Drummond de Andrade",
+      "ano": 1944,
+      "paginas": 128,
+      "preco": 24.0,
+      "isbn": "9788535902777",
+      "descricao": "Memória e poesia."
+    },
+    {
+      "nome": "A Máquina do Mundo",
+      "autor": "Carlos Drummond de Andrade",
+      "ano": 1956,
+      "paginas": 64,
+      "preco": 20.0,
+      "isbn": "9788535902777",
+      "descricao": "Poema filosófico célebre."
+    },
+    {
+      "nome": "Fazenda Antiga",
+      "autor": "Carlos Drummond de Andrade",
+      "ano": 1978,
+      "paginas": 192,
+      "preco": 28.0,
+      "isbn": "9788535902777",
+      "descricao": "Memórias em prosa."
+    },
+    {
+      "nome": "Histórias de Família",
+      "autor": "Carlos Drummond de Andrade",
+      "ano": 1962,
+      "paginas": 160,
+      "preco": 26.0,
+      "isbn": "9788535902777",
+      "descricao": "Contos autobiográficos."
+    },
+    {
+      "nome": "Sol da Meia-Noite",
+      "autor": "Carlos Drummond de Andrade",
+      "ano": 1960,
+      "paginas": 128,
+      "preco": 25.0,
+      "isbn": "9788535902777",
+      "descricao": "Poesia de viagem."
+    },
+    {
+      "nome": "Lira dos Vinte Anos",
+      "autor": "Álvares de Azevedo",
+      "ano": 1853,
+      "paginas": 96,
+      "preco": 18.0,
+      "isbn": "9788535902777",
+      "descricao": "Romantismo tardio e ironia."
+    },
+    {
+      "nome": "Macário",
+      "autor": "Álvares de Azevedo",
+      "ano": 1855,
+      "paginas": 128,
+      "preco": 19.0,
+      "isbn": "9788535902777",
+      "descricao": "Romance romântico urbano."
+    },
+    {
+      "nome": "Noite na Taverna",
+      "autor": "Álvares de Azevedo",
+      "ano": 1855,
+      "paginas": 96,
+      "preco": 18.0,
+      "isbn": "9788535902777",
+      "descricao": "Boêmio e decadentismo."
+    },
+    {
+      "nome": "Paulicéia Desvairada",
+      "autor": "Mário de Andrade",
+      "ano": 1922,
+      "paginas": 96,
+      "preco": 24.0,
+      "isbn": "9788535911058",
+      "descricao": "São Paulo moderna em verso livre."
+    },
+    {
+      "nome": "Jequibá",
+      "autor": "Mário de Andrade",
+      "ano": 1930,
+      "paginas": 128,
+      "preco": 25.0,
+      "isbn": "9788535911058",
+      "descricao": "Contos de maturidade."
+    },
+    {
+      "nome": "A Escrava queimou-se",
+      "autor": "Mário de Andrade",
+      "ano": 1928,
+      "paginas": 96,
+      "preco": 22.0,
+      "isbn": "9788535911058",
+      "descricao": "Prosa modernista breve."
+    },
+    {
+      "nome": "Cobra de Vidro",
+      "autor": "Manuel Bandeira",
+      "ano": 1927,
+      "paginas": 96,
+      "preco": 20.0,
+      "isbn": "9788535902777",
+      "descricao": "Poesia lírica."
+    },
+    {
+      "nome": "Desafio",
+      "autor": "Oswald de Andrade",
+      "ano": 1922,
+      "paginas": 64,
+      "preco": 17.0,
+      "isbn": "9788535902777",
+      "descricao": "Poema-manifesto."
+    },
+    {
+      "nome": "Estrela da Vida Inteira",
+      "autor": "Carlos Drummond de Andrade",
+      "ano": 1970,
+      "paginas": 128,
+      "preco": 26.0,
+      "isbn": "9788535902777",
+      "descricao": "Poesia de maturidade."
+    },
+    {
+      "nome": "Poesia Negócio Sério",
+      "autor": "Manuel Bandeira",
+      "ano": 1930,
+      "paginas": 96,
+      "preco": 20.0,
+      "isbn": "9788535902777",
+      "descricao": "Versos de ironia."
+    }
+  ],
+  "Naturalismo": [
+    {
+      "nome": "O Cortiço",
+      "autor": "Aluísio Azevedo",
+      "ano": 1890,
+      "paginas": 320,
+      "preco": 31.0,
+      "isbn": "9788535922215",
+      "descricao": "Moradia coletiva e conflitos no Rio do século XIX."
+    },
+    {
+      "nome": "O Mulato",
+      "autor": "Aluísio Azevedo",
+      "ano": 1881,
+      "paginas": 192,
+      "preco": 24.0,
+      "isbn": "9788535922215",
+      "descricao": "Racismo e hipocrisia na sociedade imperial."
+    },
+    {
+      "nome": "Casa de Pensão",
+      "autor": "Aluísio Azevedo",
+      "ano": 1884,
+      "paginas": 224,
+      "preco": 26.0,
+      "isbn": "9788535922215",
+      "descricao": "Ambiente urbano e determinismo social."
+    },
+    {
+      "nome": "O Homem",
+      "autor": "Aluísio Azevedo",
+      "ano": 1887,
+      "paginas": 256,
+      "preco": 27.0,
+      "isbn": "9788535922215",
+      "descricao": "Paixão, ciúme e ambiente hostil."
+    },
+    {
+      "nome": "Lucíola",
+      "autor": "José de Alencar",
+      "ano": 1862,
+      "paginas": 192,
+      "preco": 20.0,
+      "isbn": "9788535902777",
+      "descricao": "Queda e redenção da protagonista."
+    },
+    {
+      "nome": "O Ateneu",
+      "autor": "Raul Pompéia",
+      "ano": 1888,
+      "paginas": 256,
+      "preco": 28.0,
+      "isbn": "9788535902777",
+      "descricao": "Internato e crítica da elite carioca."
+    },
+    {
+      "nome": "Bom-Crioulo",
+      "autor": "Adolfo Caminha",
+      "ano": 1895,
+      "paginas": 128,
+      "preco": 22.0,
+      "isbn": "9788535902777",
+      "descricao": "Homossexualidade e ambiente naval."
+    },
+    {
+      "nome": "Tentação",
+      "autor": "Adolfo Caminha",
+      "ano": 1899,
+      "paginas": 192,
+      "preco": 23.0,
+      "isbn": "9788535902777",
+      "descricao": "Desejo e moralidade no naturalismo."
+    },
+    {
+      "nome": "A Carne",
+      "autor": "Júlio Ribeiro",
+      "ano": 1888,
+      "paginas": 224,
+      "preco": 25.0,
+      "isbn": "9788535902777",
+      "descricao": "Instinto e convenção no romance urbano."
+    },
+    {
+      "nome": "Mocidade de Traição",
+      "autor": "Júlio Ribeiro",
+      "ano": 1892,
+      "paginas": 192,
+      "preco": 24.0,
+      "isbn": "9788535902777",
+      "descricao": "Amor adulterino e ciúme."
+    },
+    {
+      "nome": "A Falência",
+      "autor": "Júlia Lopes de Almeida",
+      "ano": 1901,
+      "paginas": 256,
+      "preco": 26.0,
+      "isbn": "9788535902777",
+      "descricao": "Família burguesa e crise financeira."
+    },
+    {
+      "nome": "A Família Medeiros",
+      "autor": "Júlia Lopes de Almeida",
+      "ano": 1892,
+      "paginas": 224,
+      "preco": 25.0,
+      "isbn": "9788535902777",
+      "descricao": "Mulher escritora e crítica social."
+    },
+    {
+      "nome": "Diva",
+      "autor": "Júlia Lopes de Almeida",
+      "ano": 1899,
+      "paginas": 192,
+      "preco": 23.0,
+      "isbn": "9788535902777",
+      "descricao": "Protagonista entre arte e sobrevivência."
+    },
+    {
+      "nome": "Os Bruzundangas",
+      "autor": "Lima Barreto",
+      "ano": 1920,
+      "paginas": 192,
+      "preco": 24.0,
+      "isbn": "9788535910777",
+      "descricao": "Sátira de costumes republicanos."
+    },
+    {
+      "nome": "Números",
+      "autor": "Lima Barreto",
+      "ano": 1904,
+      "paginas": 128,
+      "preco": 20.0,
+      "isbn": "9788535910777",
+      "descricao": "Contos sobre a pequena burguesia."
+    },
+    {
+      "nome": "Recordações do Escrivão Isaías Caminha",
+      "autor": "Lima Barreto",
+      "ano": 1909,
+      "paginas": 256,
+      "preco": 27.0,
+      "isbn": "9788535910777",
+      "descricao": "Crítica social com humor amargo."
+    },
+    {
+      "nome": "O Cemitério dos Livros",
+      "autor": "Lima Barreto",
+      "ano": 1918,
+      "paginas": 160,
+      "preco": 22.0,
+      "isbn": "9788535910777",
+      "descricao": "Literatura e fracasso na República."
+    },
+    {
+      "nome": "Vida e Morte de M. J. Gonzaga",
+      "autor": "Lima Barreto",
+      "ano": 1919,
+      "paginas": 192,
+      "preco": 23.0,
+      "isbn": "9788535910777",
+      "descricao": "Biografia fictícia e ironia."
+    },
+    {
+      "nome": "O Triste Fim de Policarpo Quaresma",
+      "autor": "Lima Barreto",
+      "ano": 1915,
+      "paginas": 192,
+      "preco": 27.0,
+      "isbn": "9788535910777",
+      "descricao": "Patriotismo e tragédia cômica."
+    },
+    {
+      "nome": "Cló",
+      "autor": "Adolfo Caminha",
+      "ano": 1904,
+      "paginas": 160,
+      "preco": 21.0,
+      "isbn": "9788535902777",
+      "descricao": "Romance de ambiente nordestino."
+    },
+    {
+      "nome": "Os Brás Cubas",
+      "autor": "Lima Barreto",
+      "ano": 1924,
+      "paginas": 192,
+      "preco": 24.0,
+      "isbn": "9788535902777",
+      "descricao": "Sátira da pequena burguesia."
+    },
+    {
+      "nome": "O Subúrbio Confidencial",
+      "autor": "Lima Barreto",
+      "ano": 1904,
+      "paginas": 128,
+      "preco": 20.0,
+      "isbn": "9788535902777",
+      "descricao": "Crônicas do subúrbio carioca."
+    },
+    {
+      "nome": "Contos Completos",
+      "autor": "Lima Barreto",
+      "ano": 1922,
+      "paginas": 384,
+      "preco": 35.0,
+      "isbn": "9788535902777",
+      "descricao": "Coletânea da prosa breve."
+    },
+    {
+      "nome": "Diário do Hospício",
+      "autor": "Lima Barreto",
+      "ano": 1920,
+      "paginas": 160,
+      "preco": 22.0,
+      "isbn": "9788535902777",
+      "descricao": "Texto autobiográfico fragmentado."
+    },
+    {
+      "nome": "O Flagelo",
+      "autor": "Lima Barreto",
+      "ano": 1919,
+      "paginas": 128,
+      "preco": 21.0,
+      "isbn": "9788535902777",
+      "descricao": "Crítica social e ironia."
+    },
+    {
+      "nome": "A Nova California",
+      "autor": "Lima Barreto",
+      "ano": 1910,
+      "paginas": 96,
+      "preco": 19.0,
+      "isbn": "9788535902777",
+      "descricao": "Sátira política breve."
+    },
+    {
+      "nome": "Histórias e Sonhos",
+      "autor": "Lima Barreto",
+      "ano": 1905,
+      "paginas": 128,
+      "preco": 20.0,
+      "isbn": "9788535902777",
+      "descricao": "Contos de formação."
+    },
+    {
+      "nome": "O Colecionador de Orquídeas",
+      "autor": "Lima Barreto",
+      "ano": 1904,
+      "paginas": 64,
+      "preco": 17.0,
+      "isbn": "9788535902777",
+      "descricao": "Conto sobre obsessão."
+    },
+    {
+      "nome": "A Quebrada",
+      "autor": "Lima Barreto",
+      "ano": 1904,
+      "paginas": 64,
+      "preco": 17.0,
+      "isbn": "9788535902777",
+      "descricao": "Ambiente urbano marginal."
+    },
+    {
+      "nome": "O Homem de Traje Branco",
+      "autor": "Lima Barreto",
+      "ano": 1904,
+      "paginas": 64,
+      "preco": 17.0,
+      "isbn": "9788535902777",
+      "descricao": "Hipocrisia social."
+    },
+    {
+      "nome": "A Estrela Suíça",
+      "autor": "Lima Barreto",
+      "ano": 1905,
+      "paginas": 64,
+      "preco": 17.0,
+      "isbn": "9788535902777",
+      "descricao": "Ironia e destino."
+    },
+    {
+      "nome": "O Espelho",
+      "autor": "Lima Barreto",
+      "ano": 1906,
+      "paginas": 48,
+      "preco": 16.0,
+      "isbn": "9788535902777",
+      "descricao": "Conto sobre aparências."
+    },
+    {
+      "nome": "A Nova Califórnia",
+      "autor": "Lima Barreto",
+      "ano": 1910,
+      "paginas": 96,
+      "preco": 19.0,
+      "isbn": "9788535902777",
+      "descricao": "Texto satírico político."
+    },
+    {
+      "nome": "O Caso do Varadouro",
+      "autor": "Lima Barreto",
+      "ano": 1910,
+      "paginas": 64,
+      "preco": 17.0,
+      "isbn": "9788535902777",
+      "descricao": "Crônica urbana."
+    },
+    {
+      "nome": "O Mimoso",
+      "autor": "Adolfo Caminha",
+      "ano": 1888,
+      "paginas": 192,
+      "preco": 22.0,
+      "isbn": "9788535902777",
+      "descricao": "Desejo e decadência no Recife."
+    },
+    {
+      "nome": "A Normalista",
+      "autor": "Adolfo Caminha",
+      "ano": 1895,
+      "paginas": 192,
+      "preco": 23.0,
+      "isbn": "9788535902777",
+      "descricao": "Educação e moralidade."
+    },
+    {
+      "nome": "Inocência",
+      "autor": "Alfredo d'Escragnolle Taunay",
+      "ano": 1895,
+      "paginas": 224,
+      "preco": 22.0,
+      "isbn": "9788535902777",
+      "descricao": "Honra e tragédia no sertão."
+    },
+    {
+      "nome": "Stella",
+      "autor": "Júlia Lopes de Almeida",
+      "ano": 1890,
+      "paginas": 192,
+      "preco": 23.0,
+      "isbn": "9788535902777",
+      "descricao": "Romance urbano naturalista."
+    },
+    {
+      "nome": "Os Direitos de Marta",
+      "autor": "Júlia Lopes de Almeida",
+      "ano": 1910,
+      "paginas": 192,
+      "preco": 24.0,
+      "isbn": "9788535902777",
+      "descricao": "Mulher e trabalho."
+    },
+    {
+      "nome": "O Bobo",
+      "autor": "Júlia Lopes de Almeida",
+      "ano": 1883,
+      "paginas": 160,
+      "preco": 22.0,
+      "isbn": "9788535902777",
+      "descricao": "Crítica social tardia."
+    },
+    {
+      "nome": "As Joias da Coroa",
+      "autor": "Lima Barreto",
+      "ano": 1918,
+      "paginas": 192,
+      "preco": 23.0,
+      "isbn": "9788535910777",
+      "descricao": "Sátira da República."
+    },
+    {
+      "nome": "O Homem que sabia Javanês",
+      "autor": "Lima Barreto",
+      "ano": 1920,
+      "paginas": 128,
+      "preco": 21.0,
+      "isbn": "9788535902777",
+      "descricao": "Ironia e destino."
+    },
+    {
+      "nome": "Não causarás dano",
+      "autor": "Lima Barreto",
+      "ano": 1914,
+      "paginas": 64,
+      "preco": 17.0,
+      "isbn": "9788535902777",
+      "descricao": "Conto moral."
+    },
+    {
+      "nome": "Histórias e histórias",
+      "autor": "Lima Barreto",
+      "ano": 1918,
+      "paginas": 128,
+      "preco": 21.0,
+      "isbn": "9788535902777",
+      "descricao": "Variedade de temas."
+    },
+    {
+      "nome": "O Senhor Secretário",
+      "autor": "Lima Barreto",
+      "ano": 1918,
+      "paginas": 96,
+      "preco": 20.0,
+      "isbn": "9788535902777",
+      "descricao": "Burocracia e ironia."
+    },
+    {
+      "nome": "O Artista da Vida",
+      "autor": "Lima Barreto",
+      "ano": 1912,
+      "paginas": 128,
+      "preco": 20.0,
+      "isbn": "9788535902777",
+      "descricao": "Fracasso e literatura."
+    },
+    {
+      "nome": "O Corsário",
+      "autor": "Aluísio Azevedo",
+      "ano": 1890,
+      "paginas": 192,
+      "preco": 24.0,
+      "isbn": "9788535902777",
+      "descricao": "Paixão e vingança."
+    },
+    {
+      "nome": "O Culto da Natureza",
+      "autor": "Adolfo Caminha",
+      "ano": 1896,
+      "paginas": 160,
+      "preco": 22.0,
+      "isbn": "9788535902777",
+      "descricao": "Moral e instinto."
+    },
+    {
+      "nome": "Amor de Perdição",
+      "autor": "Camilo Castelo Branco",
+      "ano": 1862,
+      "paginas": 384,
+      "preco": 28.0,
+      "isbn": "9788535902777",
+      "descricao": "Romance português — leitura no Brasil."
+    },
+    {
+      "nome": "Um Personagem",
+      "autor": "Lima Barreto",
+      "ano": 1915,
+      "paginas": 64,
+      "preco": 17.0,
+      "isbn": "9788535902777",
+      "descricao": "Retrato urbano."
+    }
+  ],
+  "Conto longo": [
+    {
+      "nome": "O Alienista",
+      "autor": "Machado de Assis",
+      "ano": 1882,
+      "paginas": 96,
+      "preco": 22.0,
+      "isbn": "9788535913196",
+      "descricao": "Bacamarte e a Casa Verde numa crítica à razão estreita."
+    },
+    {
+      "nome": "O Espelho",
+      "autor": "Machado de Assis",
+      "ano": 1880,
+      "paginas": 64,
+      "preco": 16.0,
+      "isbn": "9788535913196",
+      "descricao": "Metalinguagem e ironia machadiana."
+    },
+    {
+      "nome": "A Cartomante",
+      "autor": "Machado de Assis",
+      "ano": 1884,
+      "paginas": 48,
+      "preco": 14.0,
+      "isbn": "9788535913196",
+      "descricao": "Ciúme e destino em conto urbano."
+    },
+    {
+      "nome": "O Mandarim",
+      "autor": "Machado de Assis",
+      "ano": 1882,
+      "paginas": 48,
+      "preco": 14.0,
+      "isbn": "9788535913196",
+      "descricao": "Fábula sobre riqueza e desejo."
+    },
+    {
+      "nome": "Um Apólogo",
+      "autor": "Machado de Assis",
+      "ano": 1880,
+      "paginas": 32,
+      "preco": 12.0,
+      "isbn": "9788535913196",
+      "descricao": "Breve parábola filosófica."
+    },
+    {
+      "nome": "Pai Contra Mãe",
+      "autor": "Machado de Assis",
+      "ano": 1882,
+      "paginas": 32,
+      "preco": 12.0,
+      "isbn": "9788535913196",
+      "descricao": "Escravidão e família em conto brevíssimo."
+    },
+    {
+      "nome": "A Igreja do Diabo",
+      "autor": "Machado de Assis",
+      "ano": 1882,
+      "paginas": 48,
+      "preco": 14.0,
+      "isbn": "9788535913196",
+      "descricao": "Sátira religiosa e costumes."
+    },
+    {
+      "nome": "O Imortal",
+      "autor": "Machado de Assis",
+      "ano": 1882,
+      "paginas": 48,
+      "preco": 14.0,
+      "isbn": "9788535913196",
+      "descricao": "Ciência e vaidade em tom cômico."
+    },
+    {
+      "nome": "O Primo Basílio",
+      "autor": "Eça de Queirós",
+      "ano": 1878,
+      "paginas": 384,
+      "preco": 32.0,
+      "isbn": "9788535902777",
+      "descricao": "Adultério e burguesia lisboeta — leitura canônica no Brasil."
+    },
+    {
+      "nome": "Dom Casmurro (conto: Capítulo CXXV)",
+      "autor": "Machado de Assis",
+      "ano": 1899,
+      "paginas": 32,
+      "preco": 12.0,
+      "isbn": "9788533611196",
+      "descricao": "Trecho autônomo da dúvida de Bentinho."
+    },
+    {
+      "nome": "Noite de Alderigo",
+      "autor": "Graciliano Ramos",
+      "ano": 1940,
+      "paginas": 64,
+      "preco": 15.0,
+      "isbn": "9788535905453",
+      "descricao": "Conto seco e preciso do autor alagoano."
+    },
+    {
+      "nome": "A Partida do Bonde",
+      "autor": "Graciliano Ramos",
+      "ano": 1940,
+      "paginas": 48,
+      "preco": 14.0,
+      "isbn": "9788535905453",
+      "descricao": "Cotidiano urbano em prosa minimalista."
+    },
+    {
+      "nome": "O Enterro",
+      "autor": "Graciliano Ramos",
+      "ano": 1940,
+      "paginas": 32,
+      "preco": 12.0,
+      "isbn": "9788535905453",
+      "descricao": "Morte e indiferença no sertão."
+    },
+    {
+      "nome": "A Morte da Porteira",
+      "autor": "João Guimarães Rosa",
+      "ano": 1962,
+      "paginas": 64,
+      "preco": 18.0,
+      "isbn": "9788535926212",
+      "descricao": "Conto clássico do sertão mineiro."
+    },
+    {
+      "nome": "O Burrinho Pedrês",
+      "autor": "João Guimarães Rosa",
+      "ano": 1962,
+      "paginas": 48,
+      "preco": 16.0,
+      "isbn": "9788535926212",
+      "descricao": "Animal e humanidade em parábola."
+    },
+    {
+      "nome": "O Meu Mundo",
+      "autor": "João Guimarães Rosa",
+      "ano": 1962,
+      "paginas": 64,
+      "preco": 17.0,
+      "isbn": "9788535926212",
+      "descricao": "Infância e linguagem inventiva."
+    },
+    {
+      "nome": "A Terceira Margem do Rio",
+      "autor": "João Guimarães Rosa",
+      "ano": 1962,
+      "paginas": 48,
+      "preco": 16.0,
+      "isbn": "9788535926212",
+      "descricao": "Realismo fantástico e memória."
+    },
+    {
+      "nome": "A Hora da Estrela",
+      "autor": "Clarice Lispector",
+      "ano": 1977,
+      "paginas": 96,
+      "preco": 34.5,
+      "isbn": "9788532505863",
+      "descricao": "Macabéa no Rio: fragilidade em primeiro plano."
+    },
+    {
+      "nome": "A Bela e a Fera",
+      "autor": "Clarice Lispector",
+      "ano": 1960,
+      "paginas": 64,
+      "preco": 18.0,
+      "isbn": "9788532505863",
+      "descricao": "Conto sobre infância e alteridade."
+    },
+    {
+      "nome": "Amor",
+      "autor": "Clarice Lispector",
+      "ano": 1960,
+      "paginas": 48,
+      "preco": 16.0,
+      "isbn": "9788532505863",
+      "descricao": "Encontro banal e epifania interior."
+    },
+    {
+      "nome": "Contos Fluminenses",
+      "autor": "Machado de Assis",
+      "ano": 1870,
+      "paginas": 192,
+      "preco": 22.0,
+      "isbn": "9788535902777",
+      "descricao": "Primeiros contos machadianos."
+    },
+    {
+      "nome": "Papéis Avulsos",
+      "autor": "Machado de Assis",
+      "ano": 1882,
+      "paginas": 256,
+      "preco": 24.0,
+      "isbn": "9788535902777",
+      "descricao": "Contos maduros e ironia."
+    },
+    {
+      "nome": "Histórias Sem Data",
+      "autor": "Machado de Assis",
+      "ano": 1884,
+      "paginas": 192,
+      "preco": 23.0,
+      "isbn": "9788535902777",
+      "descricao": "Narrativas breves variadas."
+    },
+    {
+      "nome": "Relíquias da Casa Velha",
+      "autor": "Machado de Assis",
+      "ano": 1906,
+      "paginas": 224,
+      "preco": 25.0,
+      "isbn": "9788535902777",
+      "descricao": "Contos tardios reunidos."
+    },
+    {
+      "nome": "O Varão do Senhor",
+      "autor": "Machado de Assis",
+      "ano": 1882,
+      "paginas": 48,
+      "preco": 14.0,
+      "isbn": "9788535902777",
+      "descricao": "Sátira religiosa breve."
+    },
+    {
+      "nome": "A Causa Secreta",
+      "autor": "Machado de Assis",
+      "ano": 1882,
+      "paginas": 48,
+      "preco": 14.0,
+      "isbn": "9788535902777",
+      "descricao": "Ciúme e mistério."
+    },
+    {
+      "nome": "O Enigma",
+      "autor": "Machado de Assis",
+      "ano": 1882,
+      "paginas": 48,
+      "preco": 14.0,
+      "isbn": "9788535902777",
+      "descricao": "Ironia e desfecho surpresa."
+    },
+    {
+      "nome": "Desencantos",
+      "autor": "Machado de Assis",
+      "ano": 1882,
+      "paginas": 48,
+      "preco": 14.0,
+      "isbn": "9788535902777",
+      "descricao": "Amor e desilusão."
+    },
+    {
+      "nome": "Contos Novos",
+      "autor": "Machado de Assis",
+      "ano": 1904,
+      "paginas": 256,
+      "preco": 26.0,
+      "isbn": "9788535902777",
+      "descricao": "Coletânea tardia."
+    },
+    {
+      "nome": "Contos Esparsos",
+      "autor": "Machado de Assis",
+      "ano": 1896,
+      "paginas": 192,
+      "preco": 24.0,
+      "isbn": "9788535902777",
+      "descricao": "Variedade de temas urbanos."
+    },
+    {
+      "nome": "Cenas Fluminenses",
+      "autor": "Machado de Assis",
+      "ano": 1890,
+      "paginas": 192,
+      "preco": 23.0,
+      "isbn": "9788535902777",
+      "descricao": "Rio e personagens típicos."
+    },
+    {
+      "nome": "Contos Americanos",
+      "autor": "Machado de Assis",
+      "ano": 1882,
+      "paginas": 128,
+      "preco": 22.0,
+      "isbn": "9788535902777",
+      "descricao": "Temas do continente."
+    },
+    {
+      "nome": "Galeria de Passados",
+      "autor": "Machado de Assis",
+      "ano": 1882,
+      "paginas": 128,
+      "preco": 22.0,
+      "isbn": "9788535902777",
+      "descricao": "Memória e ironia."
+    },
+    {
+      "nome": "Noites de Alderigo",
+      "autor": "Graciliano Ramos",
+      "ano": 1940,
+      "paginas": 64,
+      "preco": 15.0,
+      "isbn": "9788535905453",
+      "descricao": "Prosa seca e precisa."
+    },
+    {
+      "nome": "Contos de Mário de Andrade",
+      "autor": "Mário de Andrade",
+      "ano": 1928,
+      "paginas": 192,
+      "preco": 26.0,
+      "isbn": "9788535902777",
+      "descricao": "Prosa breve modernista."
+    },
+    {
+      "nome": "O Peru sobre Postes",
+      "autor": "Mário de Andrade",
+      "ano": 1934,
+      "paginas": 128,
+      "preco": 25.0,
+      "isbn": "9788535911058",
+      "descricao": "Crônicas e viagem."
+    },
+    {
+      "nome": "Os Pássaros",
+      "autor": "Clarice Lispector",
+      "ano": 1960,
+      "paginas": 48,
+      "preco": 16.0,
+      "isbn": "9788532505863",
+      "descricao": "Metáfora e vida doméstica."
+    },
+    {
+      "nome": "A Mensagem",
+      "autor": "Clarice Lispector",
+      "ano": 1960,
+      "paginas": 48,
+      "preco": 16.0,
+      "isbn": "9788532505863",
+      "descricao": "Comunicação e solidão."
+    },
+    {
+      "nome": "O Ovo e a Galinha",
+      "autor": "Clarice Lispector",
+      "ano": 1960,
+      "paginas": 48,
+      "preco": 20.0,
+      "isbn": "9788532505863",
+      "descricao": "Linguagem e criação."
+    },
+    {
+      "nome": "As Palavras",
+      "autor": "Clarice Lispector",
+      "ano": 1960,
+      "paginas": 64,
+      "preco": 22.0,
+      "isbn": "9788532505863",
+      "descricao": "Escrita e existência."
+    },
+    {
+      "nome": "Feliz Ano Novo",
+      "autor": "Clarice Lispector",
+      "ano": 1973,
+      "paginas": 128,
+      "preco": 28.0,
+      "isbn": "9788532505863",
+      "descricao": "Contos tardios e humor."
+    },
+    {
+      "nome": "Os Contos de Belazarte",
+      "autor": "Mário de Andrade",
+      "ano": 1926,
+      "paginas": 128,
+      "preco": 24.0,
+      "isbn": "9788535911058",
+      "descricao": "Humor regional."
+    },
+    {
+      "nome": "Singular Ocorrência",
+      "autor": "Machado de Assis",
+      "ano": 1882,
+      "paginas": 48,
+      "preco": 14.0,
+      "isbn": "9788535902777",
+      "descricao": "Ironia machadiana."
+    },
+    {
+      "nome": "Numa Serventia Antiga",
+      "autor": "Machado de Assis",
+      "ano": 1882,
+      "paginas": 48,
+      "preco": 14.0,
+      "isbn": "9788535902777",
+      "descricao": "Memória e justiça."
+    },
+    {
+      "nome": "Ideias Vagas",
+      "autor": "Machado de Assis",
+      "ano": 1882,
+      "paginas": 48,
+      "preco": 14.0,
+      "isbn": "9788535902777",
+      "descricao": "Reflexão breve."
+    },
+    {
+      "nome": "O Homem Célebre",
+      "autor": "Machado de Assis",
+      "ano": 1882,
+      "paginas": 48,
+      "preco": 14.0,
+      "isbn": "9788535902777",
+      "descricao": "Vaidade social."
+    },
+    {
+      "nome": "Felicidade",
+      "autor": "Clarice Lispector",
+      "ano": 1960,
+      "paginas": 48,
+      "preco": 16.0,
+      "isbn": "9788532505863",
+      "descricao": "Epifania doméstica."
+    },
+    {
+      "nome": "O Minhoto",
+      "autor": "João Guimarães Rosa",
+      "ano": 1962,
+      "paginas": 48,
+      "preco": 16.0,
+      "isbn": "9788535926212",
+      "descricao": "Sertão e personagem."
+    },
+    {
+      "nome": "Os Buritis",
+      "autor": "João Guimarães Rosa",
+      "ano": 1962,
+      "paginas": 48,
+      "preco": 16.0,
+      "isbn": "9788535926212",
+      "descricao": "Natureza e memória."
+    },
+    {
+      "nome": "Uma Causa Decidida",
+      "autor": "Machado de Assis",
+      "ano": 1882,
+      "paginas": 48,
+      "preco": 14.0,
+      "isbn": "9788535902777",
+      "descricao": "Justiça e ironia."
+    }
+  ],
+  "Ficção": [
+    {
+      "nome": "A Hora da Estrela",
+      "autor": "Clarice Lispector",
+      "ano": 1977,
+      "paginas": 96,
+      "preco": 34.5,
+      "isbn": "9788532505863",
+      "descricao": "Macabéa no Rio: fragilidade e escrita em primeiro plano."
+    },
+    {
+      "nome": "Perto do Coração Selvagem",
+      "autor": "Clarice Lispector",
+      "ano": 1943,
+      "paginas": 192,
+      "preco": 32.0,
+      "isbn": "9788532505863",
+      "descricao": "Estreia ficcional e interioridade radical."
+    },
+    {
+      "nome": "A Paixão segundo G.H.",
+      "autor": "Clarice Lispector",
+      "ano": 1964,
+      "paginas": 192,
+      "preco": 36.0,
+      "isbn": "9788532505863",
+      "descricao": "Crise existencial e linguagem do indizível."
+    },
+    {
+      "nome": "Água Viva",
+      "autor": "Clarice Lispector",
+      "ano": 1973,
+      "paginas": 160,
+      "preco": 34.0,
+      "isbn": "9788532505863",
+      "descricao": "Fluxo de consciência e arte."
+    },
+    {
+      "nome": "A Maçã no Escuro",
+      "autor": "Clarice Lispector",
+      "ano": 1961,
+      "paginas": 160,
+      "preco": 30.0,
+      "isbn": "9788532505863",
+      "descricao": "Culpa e relação entre personagens."
+    },
+    {
+      "nome": "Laços de Família",
+      "autor": "Clarice Lispector",
+      "ano": 1960,
+      "paginas": 192,
+      "preco": 31.0,
+      "isbn": "9788532505863",
+      "descricao": "Contos sobre vínculos e solidão."
+    },
+    {
+      "nome": "Feliz Ano Novo",
+      "autor": "Clarice Lispector",
+      "ano": 1973,
+      "paginas": 128,
+      "preco": 28.0,
+      "isbn": "9788532505863",
+      "descricao": "Contos tardios e humor ácido."
+    },
+    {
+      "nome": "Um Sopro de Vida",
+      "autor": "Clarice Lispector",
+      "ano": 1978,
+      "paginas": 160,
+      "preco": 33.0,
+      "isbn": "9788532505863",
+      "descricao": "Último romance, escrito à beira da morte."
+    },
+    {
+      "nome": "A Cidade Invicta",
+      "autor": "Clarice Lispector",
+      "ano": 1952,
+      "paginas": 192,
+      "preco": 29.0,
+      "isbn": "9788532505863",
+      "descricao": "Romance de juventude e política."
+    },
+    {
+      "nome": "O Lustre",
+      "autor": "Clarice Lispector",
+      "ano": 1946,
+      "paginas": 128,
+      "preco": 26.0,
+      "isbn": "9788532505863",
+      "descricao": "Doméstico e inquietação metafísica."
+    },
+    {
+      "nome": "Alguns Animaizinhos",
+      "autor": "Clarice Lispector",
+      "ano": 1961,
+      "paginas": 96,
+      "preco": 24.0,
+      "isbn": "9788532505863",
+      "descricao": "Contos breves e fantásticos."
+    },
+    {
+      "nome": "A Legião Estrangeira",
+      "autor": "Clarice Lispector",
+      "ano": 1964,
+      "paginas": 160,
+      "preco": 30.0,
+      "isbn": "9788532505863",
+      "descricao": "Contos de exílio interior."
+    },
+    {
+      "nome": "Para Não Esquecer",
+      "autor": "Clarice Lispector",
+      "ano": 1978,
+      "paginas": 128,
+      "preco": 27.0,
+      "isbn": "9788532505863",
+      "descricao": "Crônicas e memória."
+    },
+    {
+      "nome": "Outros Escritos",
+      "autor": "Clarice Lispector",
+      "ano": 2000,
+      "paginas": 256,
+      "preco": 38.0,
+      "isbn": "9788532505863",
+      "descricao": "Ensaios e textos dispersos reunidos."
+    },
+    {
+      "nome": "As Palavras",
+      "autor": "Clarice Lispector",
+      "ano": 1960,
+      "paginas": 64,
+      "preco": 22.0,
+      "isbn": "9788532505863",
+      "descricao": "Conto sobre linguagem e criação."
+    },
+    {
+      "nome": "O Ovo e a Galinha",
+      "autor": "Clarice Lispector",
+      "ano": 1960,
+      "paginas": 48,
+      "preco": 20.0,
+      "isbn": "9788532505863",
+      "descricao": "Metáfora e vida doméstica."
+    },
+    {
+      "nome": "Amor",
+      "autor": "Clarice Lispector",
+      "ano": 1960,
+      "paginas": 48,
+      "preco": 16.0,
+      "isbn": "9788532505863",
+      "descricao": "Encontro banal e epifania interior."
+    },
+    {
+      "nome": "A Bela e a Fera",
+      "autor": "Clarice Lispector",
+      "ano": 1960,
+      "paginas": 64,
+      "preco": 18.0,
+      "isbn": "9788532505863",
+      "descricao": "Infância e alteridade."
+    },
+    {
+      "nome": "Uma Aprendizagem",
+      "autor": "Clarice Lispector",
+      "ano": 1969,
+      "paginas": 192,
+      "preco": 32.0,
+      "isbn": "9788532505863",
+      "descricao": "Amor e autoconhecimento tardio."
+    },
+    {
+      "nome": "Onde Estivestes de Noite",
+      "autor": "Clarice Lispector",
+      "ano": 1974,
+      "paginas": 160,
+      "preco": 33.0,
+      "isbn": "9788532505863",
+      "descricao": "Romance sobre ausência e escrita."
+    },
+    {
+      "nome": "A Descoberta do Mundo",
+      "autor": "Clarice Lispector",
+      "ano": 1984,
+      "paginas": 320,
+      "preco": 36.0,
+      "isbn": "9788532505863",
+      "descricao": "Contos reunidos póstumos."
+    },
+    {
+      "nome": "Onde Estou Agora",
+      "autor": "Clarice Lispector",
+      "ano": 1984,
+      "paginas": 192,
+      "preco": 32.0,
+      "isbn": "9788532505863",
+      "descricao": "Textos de jornal reunidos."
+    },
+    {
+      "nome": "O Caso do Varadouro",
+      "autor": "Lima Barreto",
+      "ano": 1910,
+      "paginas": 64,
+      "preco": 18.0,
+      "isbn": "9788535902777",
+      "descricao": "Crônica urbana em prosa."
+    },
+    {
+      "nome": "Recordações do Escrivão Isaías Caminha",
+      "autor": "Lima Barreto",
+      "ano": 1909,
+      "paginas": 256,
+      "preco": 27.0,
+      "isbn": "9788535910777",
+      "descricao": "Crítica social com humor."
+    },
+    {
+      "nome": "Os Bruzundangas",
+      "autor": "Lima Barreto",
+      "ano": 1920,
+      "paginas": 192,
+      "preco": 24.0,
+      "isbn": "9788535910777",
+      "descricao": "Sátira republicana."
+    },
+    {
+      "nome": "Números",
+      "autor": "Lima Barreto",
+      "ano": 1904,
+      "paginas": 128,
+      "preco": 20.0,
+      "isbn": "9788535910777",
+      "descricao": "Pequena burguesia."
+    },
+    {
+      "nome": "O Cemitério dos Livros",
+      "autor": "Lima Barreto",
+      "ano": 1918,
+      "paginas": 160,
+      "preco": 22.0,
+      "isbn": "9788535910777",
+      "descricao": "Literatura e fracasso."
+    },
+    {
+      "nome": "Vida e Morte de M. J. Gonzaga",
+      "autor": "Lima Barreto",
+      "ano": 1919,
+      "paginas": 192,
+      "preco": 23.0,
+      "isbn": "9788535910777",
+      "descricao": "Biografia fictícia."
+    },
+    {
+      "nome": "O Caso Morel",
+      "autor": "Rubem Fonseca",
+      "ano": 1973,
+      "paginas": 192,
+      "preco": 30.0,
+      "isbn": "9788535902777",
+      "descricao": "Crime e subjetividade."
+    },
+    {
+      "nome": "Agosto",
+      "autor": "Rubem Fonseca",
+      "ano": 1990,
+      "paginas": 224,
+      "preco": 32.0,
+      "isbn": "9788535902777",
+      "descricao": "Violência urbana."
+    },
+    {
+      "nome": "Bufo & Spallanzani",
+      "autor": "Rubem Fonseca",
+      "ano": 1985,
+      "paginas": 256,
+      "preco": 34.0,
+      "isbn": "9788535902777",
+      "descricao": "Suspense e metaficção."
+    },
+    {
+      "nome": "A Grande Arte",
+      "autor": "Rubem Fonseca",
+      "ano": 1983,
+      "paginas": 192,
+      "preco": 31.0,
+      "isbn": "9788535902777",
+      "descricao": "Detetive e Rio de Janeiro."
+    },
+    {
+      "nome": "O Selvagem da Ópera",
+      "autor": "Rubem Fonseca",
+      "ano": 1994,
+      "paginas": 224,
+      "preco": 33.0,
+      "isbn": "9788535902777",
+      "descricao": "Prosa dura e urbana."
+    },
+    {
+      "nome": "Os Músicos",
+      "autor": "Rubem Fonseca",
+      "ano": 1995,
+      "paginas": 192,
+      "preco": 30.0,
+      "isbn": "9788535902777",
+      "descricao": "Contos sobre arte e crime."
+    },
+    {
+      "nome": "Arraial do Cabo",
+      "autor": "Dalton Trevisan",
+      "ano": 1964,
+      "paginas": 128,
+      "preco": 23.0,
+      "isbn": "9788535902777",
+      "descricao": "Contos lacônicos paranaenses."
+    },
+    {
+      "nome": "Em Busca de Curitiba Perdida",
+      "autor": "Dalton Trevisan",
+      "ano": 1992,
+      "paginas": 160,
+      "preco": 26.0,
+      "isbn": "9788535902777",
+      "descricao": "Crônicas e ironia."
+    },
+    {
+      "nome": "O Torto Arado",
+      "autor": "Camilo Castelo Branco",
+      "ano": 1870,
+      "paginas": 384,
+      "preco": 28.0,
+      "isbn": "9788535902777",
+      "descricao": "Romance português — leitura no Brasil."
+    },
+    {
+      "nome": "O Cortiço",
+      "autor": "Aluísio Azevedo",
+      "ano": 1890,
+      "paginas": 320,
+      "preco": 31.0,
+      "isbn": "9788535922215",
+      "descricao": "Naturalismo e moradia coletiva."
+    },
+    {
+      "nome": "O Subúrbio Confidencial",
+      "autor": "Lima Barreto",
+      "ano": 1904,
+      "paginas": 128,
+      "preco": 20.0,
+      "isbn": "9788535902777",
+      "descricao": "Subúrbio carioca."
+    },
+    {
+      "nome": "Diário do Hospício",
+      "autor": "Lima Barreto",
+      "ano": 1920,
+      "paginas": 160,
+      "preco": 22.0,
+      "isbn": "9788535902777",
+      "descricao": "Fragmento autobiográfico."
+    },
+    {
+      "nome": "Contos Completos",
+      "autor": "Lima Barreto",
+      "ano": 1922,
+      "paginas": 384,
+      "preco": 35.0,
+      "isbn": "9788535902777",
+      "descricao": "Coletânea."
+    },
+    {
+      "nome": "O Flagelo",
+      "autor": "Lima Barreto",
+      "ano": 1919,
+      "paginas": 128,
+      "preco": 21.0,
+      "isbn": "9788535902777",
+      "descricao": "Crítica social."
+    },
+    {
+      "nome": "Os Brás Cubas",
+      "autor": "Lima Barreto",
+      "ano": 1924,
+      "paginas": 192,
+      "preco": 24.0,
+      "isbn": "9788535902777",
+      "descricao": "Pequena burguesia."
+    },
+    {
+      "nome": "Histórias e Sonhos",
+      "autor": "Lima Barreto",
+      "ano": 1905,
+      "paginas": 128,
+      "preco": 20.0,
+      "isbn": "9788535910777",
+      "descricao": "Formação."
+    },
+    {
+      "nome": "Sinfonia em Branco",
+      "autor": "Clarice Lispector",
+      "ano": 1973,
+      "paginas": 96,
+      "preco": 24.0,
+      "isbn": "9788532505863",
+      "descricao": "Prosa poética tardia."
+    },
+    {
+      "nome": "Via Crucis do Corpo",
+      "autor": "Clarice Lispector",
+      "ano": 1974,
+      "paginas": 128,
+      "preco": 28.0,
+      "isbn": "9788532505863",
+      "descricao": "Corpo e escrita."
+    },
+    {
+      "nome": "Prisioneiros",
+      "autor": "Rubem Fonseca",
+      "ano": 1989,
+      "paginas": 192,
+      "preco": 30.0,
+      "isbn": "9788535902777",
+      "descricao": "Violência e cotidiano."
+    },
+    {
+      "nome": "A Pele",
+      "autor": "Rubem Fonseca",
+      "ano": 1979,
+      "paginas": 160,
+      "preco": 28.0,
+      "isbn": "9788535902777",
+      "descricao": "Suspense psicológico."
+    },
+    {
+      "nome": "Quase de Verdade",
+      "autor": "Rubem Fonseca",
+      "ano": 1984,
+      "paginas": 192,
+      "preco": 29.0,
+      "isbn": "9788535902777",
+      "descricao": "Contos urbanos."
+    },
+    {
+      "nome": "O Livro de Zeferino",
+      "autor": "Dalton Trevisan",
+      "ano": 1980,
+      "paginas": 128,
+      "preco": 24.0,
+      "isbn": "9788535902777",
+      "descricao": "Contos paranaenses."
+    }
+  ]
+}
