@@ -1,16 +1,21 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="420" height="96" viewBox="0 0 420 96" role="img" aria-label="Catálogo dinâmico">
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="96" viewBox="0 0 420 96" role="img" aria-label="Livraria Almanaque">
   <defs>
-    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#c9a227"/>
-      <stop offset="100%" stop-color="#8b6914"/>
+    <linearGradient id="ouro" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e0b35c"/>
+      <stop offset="100%" stop-color="#8f6a28"/>
     </linearGradient>
   </defs>
-  <rect x="8" y="12" width="52" height="72" rx="4" fill="#1a1612" stroke="url(#g)" stroke-width="2"/>
-  <rect x="18" y="22" width="32" height="4" rx="1" fill="#c9a227" opacity="0.9"/>
-  <rect x="18" y="32" width="28" height="3" rx="1" fill="#fff" opacity="0.35"/>
-  <rect x="18" y="40" width="30" height="3" rx="1" fill="#fff" opacity="0.25"/>
-  <rect x="18" y="48" width="24" height="3" rx="1" fill="#fff" opacity="0.2"/>
-  <text x="76" y="44" font-family="Georgia, 'Times New Roman', serif" font-size="28" font-weight="600" fill="#f5f0e8">Catálogo</text>
-  <text x="76" y="72" font-family="system-ui, sans-serif" font-size="22" font-weight="500" fill="#c9a227" letter-spacing="0.04em">dinâmico</text>
-  <text x="76" y="88" font-family="system-ui, sans-serif" font-size="11" fill="#8a8278">Acervo brasileiro · UCDB 2026</text>
+  <!-- ï¿½cone: livro aberto (almanaque) -->
+  <g transform="translate(8,14)">
+    <path d="M4 8h28v52H4z" fill="#1b1815" stroke="url(#ouro)" stroke-width="1.5"/>
+    <path d="M32 8h28v52H32z" fill="#221e1a" stroke="url(#ouro)" stroke-width="1.5"/>
+    <path d="M32 8 L20 20 L8 8" fill="none" stroke="#c4933a" stroke-width="1.2" opacity="0.7"/>
+    <line x1="12" y1="28" x2="24" y2="28" stroke="#ebe4d8" stroke-width="1.5" opacity="0.35"/>
+    <line x1="12" y1="36" x2="28" y2="36" stroke="#ebe4d8" stroke-width="1.2" opacity="0.25"/>
+    <line x1="36" y1="28" x2="52" y2="28" stroke="#ebe4d8" stroke-width="1.5" opacity="0.35"/>
+    <line x1="36" y1="36" x2="50" y2="36" stroke="#ebe4d8" stroke-width="1.2" opacity="0.25"/>
+  </g>
+  <text x="76" y="38" font-family="Georgia, 'Times New Roman', serif" font-size="13" font-weight="400" fill="#a67c52" letter-spacing="0.18em">LIVRARIA</text>
+  <text x="76" y="68" font-family="Georgia, 'Times New Roman', serif" font-size="30" font-weight="600" fill="#ebe4d8">Almanaque</text>
+  <text x="76" y="86" font-family="system-ui, sans-serif" font-size="11" fill="#7d746a" letter-spacing="0.06em">Literatura brasileira ï¿½ Campo Grande</text>
 </svg>

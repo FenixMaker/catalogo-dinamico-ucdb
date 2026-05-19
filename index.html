@@ -6,44 +6,73 @@
     <meta name="theme-color" content="#141110" />
     <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
     <meta http-equiv="Pragma" content="no-cache" />
-    <title>Acervo brasileiro — Material de leitura</title>
+    <title>Livraria Almanaque — Catálogo digital</title>
+    <link rel="icon" href="docs/brand/logo-icon.png" type="image/png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="preconnect" href="https://covers.openlibrary.org" crossorigin />
     <link rel="preconnect" href="https://upload.wikimedia.org" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@9..144,500;9..144,600;9..144,700;1,500&family=Source+Serif+4:ital,opsz,wght@8..60,400;8..60,500;8..60,600&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,400&family=JetBrains+Mono:wght@400;500&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Lora:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Outfit:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="styles.css?v=20" />
+    <link rel="stylesheet" href="styles.css?v=35" />
   </head>
   <body>
-    <header class="hero">
+    <header class="site-header" id="topo">
+      <div class="site-header__bar">
+        <a class="site-header__marca" href="#inicio" aria-label="Almanaque Livraria — início">
+          <img
+            class="site-header__logo"
+            src="docs/brand/logo-icon.png"
+            width="48"
+            height="48"
+            alt="Almanaque Livraria"
+          />
+        </a>
+        <button
+          type="button"
+          class="site-header__menu-btn"
+          id="btn-menu-site"
+          aria-expanded="false"
+          aria-controls="nav-site"
+          aria-label="Abrir menu de navegação"
+        >
+          <span class="site-header__menu-ico" aria-hidden="true"></span>
+        </button>
+        <nav class="site-nav" id="nav-site" aria-label="Menu principal">
+          <a class="site-nav__link site-nav__link--ativo" href="#inicio" data-nav="inicio">Início</a>
+          <a class="site-nav__link" href="#catalogo" data-nav="catalogo">Catálogo</a>
+          <a class="site-nav__link" href="#livraria" data-nav="livraria">A livraria</a>
+          <a class="site-nav__link" href="#contato" data-nav="contato">Contato</a>
+        </nav>
+        <a class="site-header__cta" href="#catalogo">Explorar acervo</a>
+      </div>
+    </header>
+
+    <section class="hero" id="inicio" aria-labelledby="hero-titulo">
       <div class="hero__textura" aria-hidden="true"></div>
       <div class="hero__inner">
-        <nav class="hero__nav" aria-label="Contexto do acervo">
-          <ol class="hero__trilha">
-            <li>UCDB</li>
-            <li aria-hidden="true">/</li>
-            <li>Letras</li>
-            <li aria-hidden="true">/</li>
-            <li aria-current="page">Material de leitura</li>
-          </ol>
-          <span class="hero__ficha">Ficha catálogo <strong id="hero-ref">2026·ML-01</strong></span>
-        </nav>
-
+        <div class="hero__vignette" aria-hidden="true"></div>
         <div class="hero__grade">
           <div class="hero__intro">
             <p class="hero__selo">
               <span class="hero__selo-ponto" aria-hidden="true"></span>
-              Acervo curado · Literatura brasileira
+              Conhecimento &amp; tradição · Est. 1923 · Campo Grande
             </p>
-            <h1 class="hero__titulo">Fichas do acervo <em>brasileiro</em></h1>
+            <h1 class="hero__titulo" id="hero-titulo">
+              O acervo brasileiro,<br />
+              <em>na palma da mão</em>
+            </h1>
             <p class="hero__lead">
-              Do indianismo de Alencar ao modernismo de Macunaíma — explore o acervo na <strong>estante</strong> (lombadas
-              com capa ao passar o mouse) ou em <strong>grade de capas</strong>; clique em qualquer obra para a ficha
-              completa.
+              Consulte obras, autores e gêneros em tempo real — na estante com lombadas interativas ou na grade de capas.
+              Clique em qualquer título para abrir a ficha completa.
             </p>
+
+            <div class="hero__acoes">
+              <a class="hero__btn hero__btn--prim" href="#catalogo">Explorar acervo</a>
+              <a class="hero__btn hero__btn--sec" href="#livraria">A livraria</a>
+            </div>
 
             <ul class="hero__stats" aria-label="Resumo do acervo">
               <li class="hero__stat">
@@ -63,12 +92,6 @@
                 <span class="hero__stat-legenda">gêneros</span>
               </li>
             </ul>
-
-            <p class="hero__nota">
-              <span class="hero__nota-rotulo">Nota de uso</span>
-              Valores em reais são referência de edição didática. Capas carregadas de repositórios públicos quando
-              disponíveis.
-            </p>
           </div>
 
           <aside class="hero__destaque-wrap" aria-labelledby="destaque-rotulo">
@@ -83,11 +106,16 @@
           </aside>
         </div>
 
+        <div class="hero__rodape-home">
+          <p class="hero__nota">
+            Catálogo digital · Protótipo acadêmico UCDB · Letras · Preços e capas com fins didáticos.
+          </p>
+        </div>
         <div id="hero-faixa-capas" class="hero__faixa-capas" aria-hidden="true"></div>
       </div>
-    </header>
+    </section>
 
-    <main class="principal">
+    <main class="principal" id="catalogo">
       <section class="filtros" aria-label="Filtrar por categoria">
         <div class="filtros__cabeca">
           <h2 class="filtros__titulo">Navegar por gênero</h2>
@@ -98,7 +126,7 @@
 
       <section class="busca" aria-label="Filtrar catálogo">
         <div class="busca__painel">
-          <label class="busca__label" for="filtro">Consultar o acervo</label>
+          <label class="busca__label" for="filtro">Consultar o catálogo da livraria</label>
           <div class="busca__linha">
             <div class="busca__field">
               <span class="busca__ico-wrap" aria-hidden="true">
@@ -167,15 +195,55 @@
         ></div>
       </section>
 
-      <footer class="rodape">
-        <div class="rodape__inner">
-          <p class="rodape__texto">
-            Protótipo acadêmico UCDB — estante ou grade de capas, paleta por obra e ficha ao clicar. JavaScript puro.
+      <section class="sobre" id="livraria" aria-labelledby="livraria-titulo">
+        <div class="sobre__inner">
+          <p class="sobre__selo">Desde 1923 · Campo Grande</p>
+          <h2 class="sobre__titulo" id="livraria-titulo">A livraria</h2>
+          <p class="sobre__texto">
+            A <strong>Almanaque Livraria</strong> nasceu com o propósito de guardar e difundir a literatura brasileira — do
+            romantismo ao século XX. Neste catálogo digital você consulta fichas, sinopses e referências de edição do nosso
+            acervo curado para leitores, estudantes e pesquisadores.
           </p>
-          <span class="rodape__marca">Material de leitura · 2026</span>
+          <ul class="sobre__lista">
+            <li>Acervo especializado em autores nacionais</li>
+            <li>Consulta por gênero, autor ou palavra-chave</li>
+            <li>Fichas com ISBN, ano e sinopse</li>
+          </ul>
         </div>
-      </footer>
+      </section>
     </main>
+
+    <footer class="rodape" id="contato">
+      <div class="rodape__inner">
+        <div class="rodape__grid">
+          <div class="rodape__bloco">
+            <h2 class="rodape__titulo">Contato</h2>
+            <p class="rodape__texto">
+              <strong>Almanaque Livraria</strong><br />
+              Rua das Palmeiras, 412 — Centro<br />
+              Campo Grande, MS · CEP 79002-000
+            </p>
+            <p class="rodape__texto">
+              <a class="rodape__link" href="tel:+556730000000">(67) 3000-0000</a><br />
+              <a class="rodape__link" href="mailto:contato@almanaque.com.br">contato@almanaque.com.br</a>
+            </p>
+            <p class="rodape__horario">Seg–Sex 9h–19h · Sáb 9h–13h</p>
+          </div>
+          <div class="rodape__bloco">
+            <h2 class="rodape__titulo">Navegação</h2>
+            <nav class="rodape__nav" aria-label="Links do rodapé">
+              <a href="#inicio">Início</a>
+              <a href="#catalogo">Catálogo</a>
+              <a href="#livraria">A livraria</a>
+            </nav>
+          </div>
+        </div>
+        <p class="rodape__nota">
+          Catálogo digital em parceria com UCDB · Letras · 2026 · Protótipo acadêmico
+        </p>
+        <span class="rodape__marca">Literatura brasileira · acervo curado</span>
+      </div>
+    </footer>
 
     <div
       id="modal-livro"
@@ -226,7 +294,7 @@
       </div>
     </div>
 
-    <script src="dados-acervo.js?v=20"></script>
-    <script src="app.js?v=20"></script>
+    <script src="dados-acervo.js?v=21"></script>
+    <script src="app.js?v=33"></script>
   </body>
 </html>

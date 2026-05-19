@@ -970,6 +970,8 @@
     );
     artigo.setAttribute("aria-expanded", "false");
     artigo.style.setProperty("--espessura", dims.espessura + "px");
+    artigo.style.setProperty("--espessura-peso", String(dims.espessura));
+    artigo.dataset.espessuraBase = String(dims.espessura);
     artigo.style.setProperty("--altura", dims.altura + "px");
     artigo.style.animationDelay = String(indice * 55) + "ms";
 
@@ -1129,6 +1131,9 @@
     });
 
     fileiraScroll.appendChild(fileira);
+    requestAnimationFrame(function () {
+      ajustarFileiraScroll(fileiraScroll);
+    });
 
     var lateralDir = document.createElement("div");
     lateralDir.className = "estante__lateral estante__lateral--dir";
@@ -1269,6 +1274,80 @@
     }
   }
 
+  var resizeEstanteTimer = null;
+
+  function lerEspessuraBasePx(el) {
+    var base = parseFloat(el.dataset.espessuraBase, 10);
+    if (!isNaN(base) && base > 0) return base;
+    var css = parseFloat(getComputedStyle(el).getPropertyValue("--espessura"), 10);
+    return !isNaN(css) && css > 0 ? css : 18;
+  }
+
+  function aplicarLarguraLombada(el, larguraPx) {
+    var w = Math.round(larguraPx);
+    el.style.flex = "none";
+    el.style.width = w + "px";
+    el.style.minWidth = "";
+    el.style.setProperty("--espessura", w + "px");
+    el.classList.toggle("livro--lombada-larga", w >= 30);
+  }
+
+  function ajustarFileiraScroll(fileiraScroll) {
+    var fileira = fileiraScroll.querySelector(".estante__fileira");
+    if (!fileira) return;
+
+    var containerW = fileiraScroll.clientWidth;
+    var padL = parseFloat(getComputedStyle(fileiraScroll).paddingLeft) || 0;
+    var padR = parseFloat(getComputedStyle(fileiraScroll).paddingRight) || 0;
+    containerW = Math.max(0, containerW - padL - padR);
+    if (containerW < 1) return;
+
+    var livros = Array.prototype.slice.call(fileira.querySelectorAll(".livro"));
+    if (!livros.length) return;
+
+    var gap = 2;
+    var bases = livros.map(lerEspessuraBasePx);
+    var somaBase = bases.reduce(function (acc, n) {
+      return acc + n;
+    }, 0);
+    var natural = somaBase + gap * Math.max(0, livros.length - 1);
+    var poucosLivros = livros.length <= 10 && natural < containerW * 0.5;
+
+    fileira.classList.remove("estante__fileira--preenchida");
+    fileira.classList.toggle("estante__fileira--espalhada", poucosLivros);
+    fileira.style.display = "";
+    fileira.style.gridTemplateColumns = "";
+    fileira.style.gap = "";
+
+    livros.forEach(function (el, i) {
+      aplicarLarguraLombada(el, bases[i]);
+    });
+
+    if (poucosLivros) {
+      fileira.style.width = "100%";
+      return;
+    }
+
+    if (natural >= containerW - 1) {
+      fileira.style.width = natural + "px";
+      return;
+    }
+
+    var disponivel = containerW - gap * Math.max(0, livros.length - 1);
+    var fator = disponivel / somaBase;
+    var maxLombada = 44;
+
+    livros.forEach(function (el, i) {
+      aplicarLarguraLombada(el, Math.min(Math.max(bases[i], Math.round(bases[i] * fator)), maxLombada));
+    });
+    fileira.style.width = "100%";
+  }
+
+  function ajustarPreenchimentoEstantes() {
+    if (modoVisualizacao !== "estante" || !listaProdutos) return;
+    listaProdutos.querySelectorAll(".estante__fileira-scroll").forEach(ajustarFileiraScroll);
+  }
+
   function renderizar() {
     var filtrados = obterFiltrados();
     var semResultados = filtrados.length === 0 && produtos.length > 0;
@@ -1335,6 +1414,14 @@
 
     atualizarAriaExpandedCartoes();
     atualizarBotaoLimpar();
+
+    if (modoVisualizacao === "estante") {
+      requestAnimationFrame(function () {
+        requestAnimationFrame(ajustarPreenchimentoEstantes);
+      });
+      setTimeout(ajustarPreenchimentoEstantes, 120);
+      setTimeout(ajustarPreenchimentoEstantes, 400);
+    }
   }
 
   function limparFiltro() {
@@ -1390,16 +1477,83 @@
     if (livroFichaAtivo) {
       posicionarFichaFlutuante(livroFichaAtivo);
     }
+    clearTimeout(resizeEstanteTimer);
+    resizeEstanteTimer = setTimeout(ajustarPreenchimentoEstantes, 100);
   });
 
-  botoesModo.forEach(function (btn) {
-    btn.addEventListener("click", function () {
+  if (typeof ResizeObserver !== "undefined" && listaProdutos) {
+    var obsEstante = new ResizeObserver(function () {
+      clearTimeout(resizeEstanteTimer);
+      resizeEstanteTimer = setTimeout(ajustarPreenchimentoEstantes, 80);
+    });
+    obsEstante.observe(listaProdutos);
+  }
+
+  var modosEl = document.querySelector(".catalogo__modos");
+  if (modosEl) {
+    modosEl.addEventListener("click", function (ev) {
+      var btn = ev.target.closest(".catalogo__modo");
+      if (!btn) {
+        return;
+      }
+      ev.preventDefault();
+      ev.stopPropagation();
       definirModoVisualizacao(btn.getAttribute("data-modo"));
     });
-  });
+  }
 
   atualizarBotoesModo();
   inicializarHero();
   renderizar();
+
+  var btnMenuSite = document.getElementById("btn-menu-site");
+  var navSite = document.getElementById("nav-site");
+  var linksNavSite = document.querySelectorAll(".site-nav__link[data-nav]");
+
+  function fecharMenuSite() {
+    if (!navSite || !btnMenuSite) {
+      return;
+    }
+    navSite.classList.remove("site-nav--aberto");
+    btnMenuSite.setAttribute("aria-expanded", "false");
+    btnMenuSite.setAttribute("aria-label", "Abrir menu de navegação");
+    document.body.classList.remove("menu-site-aberto");
+  }
+
+  function abrirMenuSite() {
+    if (!navSite || !btnMenuSite) {
+      return;
+    }
+    navSite.classList.add("site-nav--aberto");
+    btnMenuSite.setAttribute("aria-expanded", "true");
+    btnMenuSite.setAttribute("aria-label", "Fechar menu de navegação");
+    document.body.classList.add("menu-site-aberto");
+  }
+
+  if (btnMenuSite && navSite) {
+    btnMenuSite.addEventListener("click", function () {
+      if (navSite.classList.contains("site-nav--aberto")) {
+        fecharMenuSite();
+      } else {
+        abrirMenuSite();
+      }
+    });
+  }
+
+  linksNavSite.forEach(function (link) {
+    link.addEventListener("click", function () {
+      linksNavSite.forEach(function (l) {
+        l.classList.remove("site-nav__link--ativo");
+      });
+      link.classList.add("site-nav__link--ativo");
+      fecharMenuSite();
+    });
+  });
+
+  document.querySelectorAll('.site-header__cta, .hero__btn, .rodape__nav a[href^="#"]').forEach(function (el) {
+    el.addEventListener("click", function () {
+      fecharMenuSite();
+    });
+  });
 })();
 

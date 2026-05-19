@@ -1,10 +1,10 @@
 <div align="center">
 
-<img src="docs/brand/logo.svg" alt="Catálogo dinâmico" width="420" />
+<img src="docs/brand/logo-com-texto.png" alt="Almanaque Livraria" width="420" />
 
 <br />
 
-**Catálogo interativo de literatura brasileira** · acervo curado · UCDB 2026 (Letras / Material de leitura)
+**Livraria Almanaque** · catálogo digital de literatura brasileira · UCDB 2026 (Letras)
 
 <br />
 
@@ -27,7 +27,7 @@
 
 ## Sobre o projeto
 
-O **Catálogo dinâmico** é um protótipo web **estático** (HTML, CSS e JavaScript puro) para explorar um **acervo de obras da literatura brasileira**. Os dados ficam em memória (`dados-acervo.js`); a interface **reage em tempo real** a buscas e filtros, **sem recarregar a página** — recriando os nós do DOM a cada interação.
+O site da **Livraria Almanaque** é um protótipo web **estático** (HTML, CSS e JavaScript puro) — catálogo digital para explorar um **acervo de obras da literatura brasileira**. Os dados ficam em memória (`dados-acervo.js`); a interface **reage em tempo real** a buscas e filtros, **sem recarregar a página** — recriando os nós do DOM a cada interação.
 
 > Aplicação acadêmica com dados fictícios/referência didática. Não substitui sistemas oficiais da biblioteca.
 
@@ -228,6 +228,7 @@ Este protótipo **não possui login** nem perfis de usuário — é um catálogo
 | [COMO_USAR_E_APRESENTAR.md](COMO_USAR_E_APRESENTAR.md) | Roteiro de apresentação e glossário para a banca |
 | [entrega-tecnica.md](entrega-tecnica.md) | Notas técnicas da entrega |
 | [docs/screenshots/](docs/screenshots/) | Capturas de tela do protótipo |
+| [docs/brand/GUIA-LOGO.md](docs/brand/GUIA-LOGO.md) | Briefing para criar a logo da livraria |
 
 ---
 
@@ -241,7 +242,8 @@ catalogo-dinamico-ucdb/
 ├── dados-acervo.js         # Array de obras (dados)
 ├── capas/fallback.svg      # Capa padrão quando externa falha
 ├── docs/
-│   ├── brand/logo.svg      # Logotipo do README
+│   ├── brand/logo-com-texto.png  # Logo com texto
+│   ├── brand/logo-icon.png       # Ícone / favicon
 │   └── screenshots/        # Prints do protótipo
 ├── scripts/                # Utilitários (capturas, acervo)
 ├── servidor-local.bat      # Sobe http.server na porta 8765
@@ -253,8 +255,8 @@ catalogo-dinamico-ucdb/
 
 <div align="center">
 
-**Catálogo dinâmico** · UCDB 2026 · Letras
+**Livraria Almanaque** · UCDB 2026 · Letras
 
-*Protótipo acadêmico — acervo brasileiro (referência didática)*
+*Livraria fictícia · catálogo acadêmico (referência didática)*
 
 </div>
