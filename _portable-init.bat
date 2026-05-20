@@ -49,10 +49,12 @@ for %%V in (-3 -3.13 -3.12 -3.11 -3.10) do (
 )
 
 for %%F in (
+  "%LOCALAPPDATA%\Programs\Python\Python314\python.exe"
   "%LOCALAPPDATA%\Programs\Python\Python313\python.exe"
   "%LOCALAPPDATA%\Programs\Python\Python312\python.exe"
   "%LOCALAPPDATA%\Programs\Python\Python311\python.exe"
   "%LOCALAPPDATA%\Programs\Python\Python310\python.exe"
+  "%ProgramFiles%\Python314\python.exe"
   "%ProgramFiles%\Python313\python.exe"
   "%ProgramFiles%\Python312\python.exe"
   "%ProgramFiles%\Python311\python.exe"

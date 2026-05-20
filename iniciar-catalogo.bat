@@ -42,7 +42,9 @@ echo Aguardando o servidor subir ^(PCs lentos: pode levar alguns segundos^)...
 set /a TRIES=0
 :wait_server
 set /a TRIES+=1
-powershell -NoProfile -Command "try { (Invoke-WebRequest -Uri 'http://127.0.0.1:%PORTA%/' -UseBasicParsing -TimeoutSec 1).StatusCode | Out-Null; exit 0 } catch { exit 1 }" >nul 2>&1
+"%PY%" %PYARGS% -c "import urllib.request; urllib.request.urlopen('http://127.0.0.1:%PORTA%/', timeout=1)" >nul 2>&1
+if not errorlevel 1 goto server_up
+curl -s -o nul --connect-timeout 1 "http://127.0.0.1:%PORTA%/" >nul 2>&1
 if not errorlevel 1 goto server_up
 if %TRIES% geq 20 goto server_up
 timeout /t 1 /nobreak >nul 2>nul
