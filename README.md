@@ -187,7 +187,8 @@ Abra no navegador: **http://127.0.0.1:8765/index.html**
 ### Opção 2 — Linha de comando
 
 ```powershell
-cd catalogo-dinamico
+git clone https://github.com/FenixMaker/catalogo-dinamico-ucdb.git
+cd catalogo-dinamico-ucdb
 python -m http.server 8765
 ```
 
@@ -260,19 +261,17 @@ catalogo-dinamico/
 
 ---
 
-## Publicar no GitHub (opcional)
+## Publicar no GitHub
 
-O projeto já é um repositório Git **local**. Para subir para o GitHub:
+Repositório: **https://github.com/FenixMaker/catalogo-dinamico-ucdb**
 
-1. Crie um repositório **vazio** em [github.com/new](https://github.com/new) (sem README, sem `.gitignore`).
-2. Na pasta do projeto:
+Para enviar novas alterações:
 
 ```powershell
-git remote add origin https://github.com/SEU-USUARIO/SEU-REPO.git
-git push -u origin main
+git add .
+git commit -m "Sua mensagem"
+git push
 ```
-
-Substitua `SEU-USUARIO/SEU-REPO` pelo nome que você escolher.
 
 ---
 
