@@ -228,27 +228,35 @@ Este protótipo **não possui login** nem perfis de usuário — é um catálogo
 | [COMO_USAR_E_APRESENTAR.md](COMO_USAR_E_APRESENTAR.md) | Roteiro de apresentação e glossário para a banca |
 | [entrega-tecnica.md](entrega-tecnica.md) | Notas técnicas da entrega |
 | [docs/screenshots/](docs/screenshots/) | Capturas de tela do protótipo |
-| [docs/brand/GUIA-LOGO.md](docs/brand/GUIA-LOGO.md) | Briefing para criar a logo da livraria |
+| [docs/brand/GUIA-LOGO.md](docs/brand/GUIA-LOGO.md) | Identidade visual da livraria |
+| [docs/README.md](docs/README.md) | Índice da documentação |
+| [scripts/README.md](scripts/README.md) | Utilitários Python (acervo, capas, prints) |
 
 ---
 
 ## Estrutura do repositório
 
 ```
-catalogo-dinamico-ucdb/
-├── index.html              # Estrutura da página
-├── styles.css              # Visual editorial (estante, modal, hero)
-├── app.js                  # Filtros, renderização DOM, modal
-├── dados-acervo.js         # Array de obras (dados)
-├── capas/fallback.svg      # Capa padrão quando externa falha
+catalogo-dinamico/
+├── index.html                  # Estrutura da página
+├── styles.css                  # Visual editorial (estante, modal, hero)
+├── app.js                      # Filtros, renderização DOM, modal
+├── dados-acervo.js             # Array de obras (350 títulos)
+├── obras-por-genero.json       # Fonte JSON do acervo
+├── capas/fallback.svg          # Capa padrão quando externa falha
 ├── docs/
-│   ├── brand/logo-com-texto.png  # Logo com texto
-│   ├── brand/logo-icon.png       # Ícone / favicon
-│   └── screenshots/        # Prints do protótipo
-├── scripts/                # Utilitários (capturas, acervo)
-├── servidor-local.bat      # Sobe http.server na porta 8765
-├── iniciar-catalogo.bat    # Alias do servidor
-└── gerar-acervo.py         # Gera/atualiza dados do acervo
+│   ├── README.md               # Índice da documentação
+│   ├── brand/                  # Logo e guia de identidade
+│   └── screenshots/            # Prints do protótipo
+├── scripts/
+│   ├── README.md               # Como rodar os utilitários
+│   ├── capturar-screenshots.py # Gera PNGs para docs/screenshots/
+│   ├── acervo/                 # Pipeline dados-acervo.js
+│   └── capas/                  # Busca e auditoria de capas
+├── servidor-local.bat          # Sobe http.server na porta 8765
+├── iniciar-catalogo.bat        # Alias do servidor
+├── COMO_USAR_E_APRESENTAR.md   # Roteiro de apresentação
+└── entrega-tecnica.md          # Notas técnicas da entrega
 ```
 
 ---

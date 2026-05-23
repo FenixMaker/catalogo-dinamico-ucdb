@@ -30,3 +30,7 @@ capas-ol-encontradas.json
 
 # Node (se adicionar tooling depois)
 node_modules/
+
+# Rascunhos de logo na raiz (usar docs/brand/)
+/logo.png
+/logo com texto.png

@@ -47,15 +47,6 @@ def main() -> None:
         httpd = start_server(PORT)
         time.sleep(0.4)
 
-    shots = [
-        ("01-hero-estante.png", None, None),
-        ("02-modo-capas.png", 'button[data-modo="grade"]', None),
-        ("03-busca-machado.png", "#filtro", "Machado"),
-        ("04-filtro-genero-romance.png", None, None),  # chip via JS
-        ("05-sem-resultados.png", "#filtro", "zzzqwerty"),
-        ("06-modal-ficha.png", None, None),  # abre modal via JS
-    ]
-
     with sync_playwright() as p:
         browser = p.chromium.launch()
         page = browser.new_page(viewport={"width": 1440, "height": 900})

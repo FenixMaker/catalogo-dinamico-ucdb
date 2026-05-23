@@ -126,17 +126,17 @@ Depois de criar, coloque os arquivos em **`docs/brand/`** e atualize o `index.ht
 
 ## 8. Instalar sua logo no site
 
-1. Substitua `docs/brand/logo.svg` pelo seu SVG.
-2. Substitua `docs/brand/icon.svg` (ou gere `favicon.ico`).
+1. Substitua `docs/brand/logo-com-texto.png` e `docs/brand/logo-icon.png` pelas versões finais.
+2. Mantenha `docs/brand/logo.svg` e `docs/brand/icon.svg` como referência vetorial.
 3. No `index.html`, confira:
 
 ```html
-<link rel="icon" href="docs/brand/icon.svg" type="image/svg+xml" />
-<img src="docs/brand/logo.svg" alt="Livraria Almanaque" class="marca__logo" />
+<link rel="icon" href="docs/brand/logo-icon.png" type="image/png" />
+<img src="docs/brand/logo-icon.png" alt="Livraria Almanaque" class="site-header__logo" />
 ```
 
-4. Se mudar proporção da logo, ajuste em `styles.css` a classe `.marca__logo` (altura ~44–52 px na barra do topo).
-5. Atualize o README: imagem em `docs/brand/logo.svg`.
+4. Se mudar proporção da logo, ajuste em `styles.css` a classe `.site-header__logo` (altura ~44–52 px na barra do topo).
+5. Atualize o README: imagem em `docs/brand/logo-com-texto.png`.
 
 ---
 
